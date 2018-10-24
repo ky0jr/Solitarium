@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 1eba23bf76cacdc4c96b9ed22ff50608
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bawah tmpt duduk
+    100002: bawah tmpt duduk. blkg
+    100004: bawahnya meja
+    100006: //RootNode
+    100008: Camera
+    100010: Cylinder
+    100012: Cylinder.001
+    100014: Cylinder.002
+    100016: dudukan
+    100018: KAKI BELAKANG
+    100020: KAKI BLKG KIRI
+    100022: karet blkg kanan
+    100024: karet blkg kiri
+    100026: karet dpn kanan
+    100028: karet dpn kiri
+    100030: Lamp
+    100032: MEJA ATAS
+    100034: penyangga bawah meja
+    100036: Plane
+    100038: sandaran
+    100040: tiang belakang kanan
+    100042: tiang belakang kanan.001
+    100044: tiang depan besar
+    100046: tiang depan ecil
+    400000: bawah tmpt duduk
+    400002: bawah tmpt duduk. blkg
+    400004: bawahnya meja
+    400006: //RootNode
+    400008: Camera
+    400010: Cylinder
+    400012: Cylinder.001
+    400014: Cylinder.002
+    400016: dudukan
+    400018: KAKI BELAKANG
+    400020: KAKI BLKG KIRI
+    400022: karet blkg kanan
+    400024: karet blkg kiri
+    400026: karet dpn kanan
+    400028: karet dpn kiri
+    400030: Lamp
+    400032: MEJA ATAS
+    400034: penyangga bawah meja
+    400036: Plane
+    400038: sandaran
+    400040: tiang belakang kanan
+    400042: tiang belakang kanan.001
+    400044: tiang depan besar
+    400046: tiang depan ecil
+    2000000: Camera
+    2100000: matGlossy
+    2100002: Rubber
+    2100004: matWood
+    2300000: bawah tmpt duduk
+    2300002: bawah tmpt duduk. blkg
+    2300004: bawahnya meja
+    2300006: Cylinder
+    2300008: Cylinder.001
+    2300010: Cylinder.002
+    2300012: dudukan
+    2300014: KAKI BELAKANG
+    2300016: KAKI BLKG KIRI
+    2300018: karet blkg kanan
+    2300020: karet blkg kiri
+    2300022: karet dpn kanan
+    2300024: karet dpn kiri
+    2300026: MEJA ATAS
+    2300028: penyangga bawah meja
+    2300030: Plane
+    2300032: sandaran
+    2300034: tiang belakang kanan
+    2300036: tiang belakang kanan.001
+    2300038: tiang depan besar
+    2300040: tiang depan ecil
+    3300000: bawah tmpt duduk
+    3300002: bawah tmpt duduk. blkg
+    3300004: bawahnya meja
+    3300006: Cylinder
+    3300008: Cylinder.001
+    3300010: Cylinder.002
+    3300012: dudukan
+    3300014: KAKI BELAKANG
+    3300016: KAKI BLKG KIRI
+    3300018: karet blkg kanan
+    3300020: karet blkg kiri
+    3300022: karet dpn kanan
+    3300024: karet dpn kiri
+    3300026: MEJA ATAS
+    3300028: penyangga bawah meja
+    3300030: Plane
+    3300032: sandaran
+    3300034: tiang belakang kanan
+    3300036: tiang belakang kanan.001
+    3300038: tiang depan besar
+    3300040: tiang depan ecil
+    4300000: Cylinder
+    4300002: Plane
+    4300004: karet dpn kiri
+    4300006: bawah tmpt duduk. blkg
+    4300008: penyangga bawah meja
+    4300010: bawahnya meja
+    4300012: KAKI BLKG KIRI
+    4300014: tiang belakang kanan
+    4300016: tiang depan besar
+    4300018: sandaran
+    4300020: dudukan
+    4300022: MEJA ATAS
+    4300024: tiang depan ecil
+    4300026: tiang belakang kanan.001
+    4300028: KAKI BELAKANG
+    4300030: bawah tmpt duduk
+    4300032: karet dpn kanan
+    4300034: karet blkg kanan
+    4300036: karet blkg kiri
+    4300038: Cylinder.001
+    4300040: Cylinder.002
+    6400000: bawah tmpt duduk
+    6400002: bawah tmpt duduk. blkg
+    6400004: bawahnya meja
+    6400006: Cylinder
+    6400008: Cylinder.001
+    6400010: Cylinder.002
+    6400012: dudukan
+    6400014: KAKI BELAKANG
+    6400016: KAKI BLKG KIRI
+    6400018: karet blkg kanan
+    6400020: karet blkg kiri
+    6400022: karet dpn kanan
+    6400024: karet dpn kiri
+    6400026: MEJA ATAS
+    6400028: penyangga bawah meja
+    6400030: Plane
+    6400032: sandaran
+    6400034: tiang belakang kanan
+    6400036: tiang belakang kanan.001
+    6400038: tiang depan besar
+    6400040: tiang depan ecil
+    10800000: Lamp
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matGlossy
+    second: {fileID: 2100000, guid: 346201508330a4c488322ea60fb1de1d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

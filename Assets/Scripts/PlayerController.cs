@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
+        Debug.Log("Print: " + Time.deltaTime);
+        Debug.Log("Print fix: " + Time.fixedDeltaTime);
         if (GameManager.instance.interact)
         {
             motor.Move(Vector3.zero);

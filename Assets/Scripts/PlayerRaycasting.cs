@@ -72,10 +72,15 @@ public class PlayerRaycasting : MonoBehaviour {
             
             if (Input.GetKeyDown(KeyCode.E))
             {
+                InteracableObject _object;
                 //highlight.gameObject.SetActive(false);
                 GameManager.instance.interact = true;
-                description.text = GameManager.instance.FindObject(ObjectName);
+
+                _object = GameManager.instance.FindObject(ObjectName);
+                description.text = _object.description;
                 panel.SetActive(true);
+                if (_object.isPickupable)
+                    Destroy(hitInfo.collider.gameObject);
                 
             }
 

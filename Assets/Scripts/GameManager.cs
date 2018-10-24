@@ -30,15 +30,15 @@ public class GameManager : MonoBehaviour {
 
     }
 
-    public string FindObject(string ObjectName)
+    public InteracableObject FindObject(string ObjectName)
     {
-        string description = "";
+        InteracableObject _object = null;
         for(int i = 0;i < interacableObject.Length; i++)
         {
             if (interacableObject[i]._name == ObjectName)
-                description = interacableObject[i].description;
+                _object = interacableObject[i];
         }
-        return description;
+        return _object;
     }
 
 }
