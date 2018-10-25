@@ -20,17 +20,11 @@ public class PlayerRaycasting : MonoBehaviour {
     [SerializeField]
     private Text description;
 
-    public string ObjectName = "";
-
-    private Color highlightColor;
-
-    Material originalMaterial, tempMaterial;
-
-    Renderer rend = null;
+    public string ObjectName = "";    
 
     void Start()
     {
-        highlightColor = Color.green;
+        
     }
 
 
@@ -40,17 +34,14 @@ public class PlayerRaycasting : MonoBehaviour {
         if (GameManager.instance.interact == true)
         {
             if (Input.GetKeyDown(KeyCode.E))
-            {
-                //Debug.Log("Ipress");
-                GameManager.instance.interact = false;
-                //highlight.gameObject.SetActive(true);
+            {                
+                GameManager.instance.interact = false;                
                 panel.SetActive(false);
                 return;
             }
         }
 
-        RaycastHit hitInfo;
-        Renderer currRend;
+        RaycastHit hitInfo;        
 
         //Draws ray in scene view during playmode; the multiplication in the second parameter controls how long the line will be
         Debug.DrawRay(this.transform.position, this.transform.forward * distanceToSee, Color.magenta);
@@ -63,62 +54,38 @@ public class PlayerRaycasting : MonoBehaviour {
         //if I wanted to access something, I could access it through the whatIHit variable. 
 
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hitInfo, distanceToSee, mask))
-        {
+        {           
             
-            currRend = hitInfo.collider.gameObject.GetComponent<Renderer>();
             ObjectName = hitInfo.collider.gameObject.name;
+            Debug.Log("Saya pukul " + ObjectName);
             highlight.text = ObjectName;
             highlight.gameObject.SetActive(true);
             
             if (Input.GetKeyDown(KeyCode.E))
             {
-                InteracableObject _object;
-                //highlight.gameObject.SetActive(false);
+                InteracableObject _object;                
                 GameManager.instance.interact = true;
 
                 _object = GameManager.instance.FindObject(ObjectName);
                 description.text = _object.description;
                 panel.SetActive(true);
-                if (_object.isPickupable)
-                    Destroy(hitInfo.collider.gameObject);
+                if (_object.isClue)
+                {
+                    Inventory.instance.Add(_object);
+                    if (_object.isPickupable)
+                    {
+                        Destroy(hitInfo.collider.gameObject);
+                    }                    
+                }                   
                 
             }
-
-            if (currRend == rend)
-                return;
-
-            if (currRend && currRend != rend)
-            {
-                if (rend)
-                {
-                    rend.sharedMaterial = originalMaterial;
-                }
-
-            }
-
-            if (currRend)
-                rend = currRend;
-            else
-                return;
-
-            originalMaterial = rend.sharedMaterial;
-
-            tempMaterial = new Material(originalMaterial);
-            rend.material = tempMaterial;
-            rend.material.color = highlightColor;
-
             
-
         }
         else
         {
             ObjectName = "";
             highlight.gameObject.SetActive(false);
-            if (rend)
-            {
-                rend.sharedMaterial = originalMaterial;
-                rend = null;
-            }
+            
         }        
     }
 

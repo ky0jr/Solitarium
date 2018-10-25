@@ -11,7 +11,11 @@ public class InteracableObject : ScriptableObject {
     [TextArea]
     public string description = "";
 
+    public Sprite icon;
+
     public bool isPickupable = false;
+
+    public bool isClue = false;
 
 	
 }

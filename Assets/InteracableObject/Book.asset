@@ -13,3 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Book
   description: Ini Buku
+  icon: {fileID: 21300000, guid: d63ff25cf7df3354bb210ad256c7ad90, type: 3}
+  isPickupable: 0
+  isClue: 1
