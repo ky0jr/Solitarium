@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour {
 
+    public Joystick joystick;
+
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
@@ -38,10 +40,13 @@ public class PlayerController : MonoBehaviour {
         Vector3 _movVertical = transform.forward * _zMov;
 
         //Final movement vector
-        Vector3 _velocity = (_movHorizontal + _movVertical).normalized * speed;
+        //Vector3 _velocity = (_movHorizontal + _movVertical).normalized * speed;
 
+        //joystick
+        Vector3 moveVector = (transform.right * joystick.Horizontal + transform.forward * joystick.Vertical).normalized*speed;
+      
         //Apply movement
-        motor.Move(_velocity);
+        motor.Move(moveVector);
 
         //Calculate rotation as a 3D vector
         float _yRot = Input.GetAxisRaw("Mouse X");

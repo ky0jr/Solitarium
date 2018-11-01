@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitarium", "Solitarium.csproj", "{E59DB161-3293-4579-EA5C-CB1D2A16DD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitarium.Plugins", "Solitarium.Plugins.csproj", "{549159B4-920B-F42A-79DA-200DC20DA148}"
 EndProject
@@ -21,14 +21,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E59DB161-3293-4579-EA5C-CB1D2A16DD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E59DB161-3293-4579-EA5C-CB1D2A16DD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E59DB161-3293-4579-EA5C-CB1D2A16DD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E59DB161-3293-4579-EA5C-CB1D2A16DD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{549159B4-920B-F42A-79DA-200DC20DA148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{549159B4-920B-F42A-79DA-200DC20DA148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{549159B4-920B-F42A-79DA-200DC20DA148}.Release|Any CPU.ActiveCfg = Release|Any CPU

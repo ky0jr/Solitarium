@@ -54,19 +54,21 @@ public class PlayerRaycasting : MonoBehaviour {
         //if I wanted to access something, I could access it through the whatIHit variable. 
 
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hitInfo, distanceToSee, mask))
-        {           
-            
-            ObjectName = hitInfo.collider.gameObject.name;
-            Debug.Log("Saya pukul " + ObjectName);
-            highlight.text = ObjectName;
+        {
+            InteracableObject _object;
+            _object = hitInfo.collider.GetComponent<ObjectInteraction>()._object;
+            //ObjectName = hitInfo.collider.gameObject.name;
+            Debug.Log("Saya pukul " + _object._name);
+            highlight.text = _object._name;
             highlight.gameObject.SetActive(true);
             
             if (Input.GetKeyDown(KeyCode.E))
             {
-                InteracableObject _object;                
+                            
                 GameManager.instance.interact = true;
 
-                _object = GameManager.instance.FindObject(ObjectName);
+                //_object = GameManager.instance.FindObject(ObjectName);
+                
                 description.text = _object.description;
                 panel.SetActive(true);
                 if (_object.isClue)
@@ -83,10 +85,15 @@ public class PlayerRaycasting : MonoBehaviour {
         }
         else
         {
-            ObjectName = "";
+            //ObjectName = "";
             highlight.gameObject.SetActive(false);
             
         }        
+    }
+
+    public void Interact()
+    {
+        Debug.Log(ObjectName);
     }
 
 }

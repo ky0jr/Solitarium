@@ -21,6 +21,7 @@ public class PlayerMotor : MonoBehaviour {
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        
     }
 
     //Get a movement vector
