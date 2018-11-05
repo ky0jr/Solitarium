@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -118,12 +118,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224831655968872082, guid: a1a8cf788ef76ba41950b9fe952e03f3,
     type: 2}
   m_PrefabInternal: {fileID: 1238535843}
---- !u!114 &27781732 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114781733863265926, guid: a1a8cf788ef76ba41950b9fe952e03f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1238535843}
-  m_Script: {fileID: 11500000, guid: 2adb2642bba7ce64eac614bea82ca35d, type: 3}
 --- !u!1 &35275166
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +699,7 @@ GameObject:
   - component: {fileID: 202603921}
   - component: {fileID: 202603920}
   - component: {fileID: 202603919}
+  - component: {fileID: 202603922}
   m_Layer: 9
   m_Name: OpenInventoryButton
   m_TagString: Untagged
@@ -816,6 +811,53 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 202603917}
   m_CullTransparentMesh: 0
+--- !u!114 &202603922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202603917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &323070416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,8 +1703,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1951605770}
-  speed: 10
-  lookSensitivity: 5
+  speed: 3
+  lookSensitivity: 20
+  swipe: 1
 --- !u!4 &569004956
 Transform:
   m_ObjectHideFlags: 0
@@ -2656,6 +2699,58 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224070147403872398, guid: ce5089f3caa5bb042a4d4c23a427bc82,
     type: 2}
   m_PrefabInternal: {fileID: 1139974545}
+--- !u!1 &1139974547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1605939441684070, guid: ce5089f3caa5bb042a4d4c23a427bc82,
+    type: 2}
+  m_PrefabInternal: {fileID: 1139974545}
+--- !u!114 &1139974548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1139974547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 0
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1140366830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,6 +2762,7 @@ GameObject:
   - component: {fileID: 1140366834}
   - component: {fileID: 1140366833}
   - component: {fileID: 1140366832}
+  - component: {fileID: 1140366835}
   m_Layer: 9
   m_Name: InteractionButton
   m_TagString: Untagged
@@ -2732,7 +2828,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 539809682}
-        m_MethodName: Interact
+        m_MethodName: InteractButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2778,6 +2874,53 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1140366830}
   m_CullTransparentMesh: 0
+--- !u!114 &1140366835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1140366830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1001 &1201435454
 Prefab:
   m_ObjectHideFlags: 0
@@ -3210,28 +3353,13 @@ Prefab:
       objectReference: {fileID: 416228419}
     - target: {fileID: 114024404869307202, guid: a1a8cf788ef76ba41950b9fe952e03f3,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114024404869307202, guid: a1a8cf788ef76ba41950b9fe952e03f3,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114024404869307202, guid: a1a8cf788ef76ba41950b9fe952e03f3,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 27781732}
-    - target: {fileID: 114024404869307202, guid: a1a8cf788ef76ba41950b9fe952e03f3,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 114024404869307202, guid: a1a8cf788ef76ba41950b9fe952e03f3,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a8cf788ef76ba41950b9fe952e03f3, type: 2}
@@ -3530,6 +3658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1471225210}
   - component: {fileID: 1471225211}
+  - component: {fileID: 1471225212}
   m_Layer: 9
   m_Name: Inventory
   m_TagString: Untagged
@@ -3574,6 +3703,53 @@ MonoBehaviour:
   itemsParent: {fileID: 1878342631}
   invenObject: {fileID: 1471225209}
   slots: []
+--- !u!114 &1471225212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471225209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOff
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 569004955}
+          m_MethodName: SwipeOn
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!224 &1540750569 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224831655968872082, guid: a1a8cf788ef76ba41950b9fe952e03f3,
@@ -4591,9 +4767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ee37f515b8a2545a7603ebc5b15ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interacableObject:
-  - {fileID: 11400000, guid: 72835a52fd9f13945b22c9d83db4a45e, type: 2}
-  - {fileID: 11400000, guid: 2728b05be732402429052dd24e4c2da8, type: 2}
   interact: 0
 --- !u!4 &2070131785
 Transform:

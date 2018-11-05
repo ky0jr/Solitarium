@@ -39,5 +39,11 @@ public class Inventory : MonoBehaviour {
 
         return false;
     }
+    public void Remove(InteracableObject item)
+    {
+        items.Remove(item);
 
+        if (onItemChangedCallback != null)
+            onItemChangedCallback.Invoke();
+    }
 }

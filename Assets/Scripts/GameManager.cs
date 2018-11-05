@@ -6,8 +6,6 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null; //Static instance of GameManager which allows it to be accessed by any other script.
 
-    public InteracableObject[] interacableObject;
-
     public bool interact = false;
 
     //Awake is always called before any Start functions
@@ -29,16 +27,4 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
     }
-
-    public InteracableObject FindObject(string ObjectName)
-    {
-        InteracableObject _object = null;
-        for(int i = 0;i < interacableObject.Length; i++)
-        {
-            if (interacableObject[i]._name == ObjectName)
-                _object = interacableObject[i];
-        }
-        return _object;
-    }
-
 }

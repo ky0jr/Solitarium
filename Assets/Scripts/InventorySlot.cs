@@ -29,7 +29,7 @@ public class InventorySlot : MonoBehaviour {
         icon.enabled = false;
     }
 
-    public void OnButton()
+    public void ShowItemDescription()
     {
         if (item == null)
             return;
