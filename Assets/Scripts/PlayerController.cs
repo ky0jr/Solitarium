@@ -12,9 +12,6 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float lookSensitivity = 10f;
 
-    private Vector3 _movHorizontal = Vector3.zero;
-    private Vector3 _movVertical = Vector3.zero;
-
     private PlayerMotor motor;
 
     private Touch initTouch = new Touch();
@@ -40,47 +37,20 @@ public class PlayerController : MonoBehaviour {
             motor.RotateCamera(0f);
             return;
         }
-            
-        if(joystick.Horizontal >= 0.2f)
-        {
-            _movHorizontal = new Vector3(speed,0f,0f);
-        }
-        else if (joystick.Horizontal <= -0.2f)
-        {
-            _movHorizontal = new Vector3(-speed, 0f, 0f);
-        }
-        else
-        {
-            _movHorizontal = Vector3.zero;
-        }
 
-        if (joystick.Vertical >= 0.2f)
-        {
-            _movVertical = new Vector3(0f, 0f, speed);
-        }
-        else if (joystick.Vertical <= -0.2f)
-        {
-            _movVertical = new Vector3(0f, 0f, -speed);
-        }
-        else
-        {
-            _movVertical = Vector3.zero;
-        }
         //Calculate movement velocity as a 3D vector
-        //float _xMov = Input.GetAxisRaw("Horizontal");
-        //float _zMov = Input.GetAxisRaw("Vertical");
+        float _xMov = joystick.Horizontal;
+        float _zMov = joystick.Vertical;
 
 
-        //Vector3 _movVertical = transform.forward * _zMov;
-
+        Vector3 _movVertical = transform.forward * _zMov;
+        Vector3 _movHorizontal = transform.right * _xMov;
+        //Debug.Log((_movHorizontal + _movVertical).normalized);
         //Final movement vector
-        //Vector3 _velocity = (_movHorizontal + _movVertical).normalized * speed;
+        Vector3 _velocity = (_movHorizontal + _movVertical).normalized * speed;
 
-        //joystick
-        Vector3 moveVector = (_movHorizontal + _movVertical).normalized * speed;
-      
         //Apply movement
-        motor.Move(moveVector);
+        motor.Move(_velocity);
 
         //Calculate rotation as a 3D vector
         //float _yRot = Input.GetAxisRaw("Mouse X");
