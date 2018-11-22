@@ -5,10 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitarium", "Solitarium.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitarium.Plugins", "Solitarium.Plugins.csproj", "{549159B4-920B-F42A-79DA-200DC20DA148}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitarium.Editor.Plugins", "Solitarium.Editor.Plugins.csproj", "{88DC9A10-A145-4371-DE21-FFC7FBEE747B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{3A848AB7-9891-EDDA-D555-BF184C2F81F4}"
@@ -29,14 +25,6 @@ Global
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{549159B4-920B-F42A-79DA-200DC20DA148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{549159B4-920B-F42A-79DA-200DC20DA148}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{549159B4-920B-F42A-79DA-200DC20DA148}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{549159B4-920B-F42A-79DA-200DC20DA148}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88DC9A10-A145-4371-DE21-FFC7FBEE747B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88DC9A10-A145-4371-DE21-FFC7FBEE747B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88DC9A10-A145-4371-DE21-FFC7FBEE747B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88DC9A10-A145-4371-DE21-FFC7FBEE747B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
