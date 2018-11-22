@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour {
 
     InteracableObject item;
+    //CombineObject product;
 
     public Image icon;
 
@@ -29,12 +30,13 @@ public class InventorySlot : MonoBehaviour {
         icon.enabled = false;
     }
 
-    public void ShowItemDescription()
+    public void OnButton()
     {
         if (item == null)
             return;
         bigIcon.sprite = item.icon;
         text.text = item.description;
+        //Inventory.instance.Remove(item);
     }
 
 }

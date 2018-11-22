@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour {
 
-    public Joystick joystick;
+    public Joystick joystick;                     
 
     [SerializeField]
     private float speed = 10f;
@@ -19,7 +20,7 @@ public class PlayerController : MonoBehaviour {
     private float _xRot = 0f;
     private float _yRot = 0f;
 
-    public bool swipes;
+    private float _cameraRotationX = 0f;
 
     private void Start()
     {
@@ -33,8 +34,8 @@ public class PlayerController : MonoBehaviour {
         if (GameManager.instance.interact || Inventory.instance.isInven)
         {
             motor.Move(Vector3.zero);
-            motor.Rotate(Vector3.zero);
-            motor.RotateCamera(0f);
+            //motor.Rotate(Vector3.zero);
+            //motor.RotateCamera(_cameraRotationX);
             return;
         }
 
@@ -67,42 +68,57 @@ public class PlayerController : MonoBehaviour {
 
         //Apply camera rotation
         //motor.RotateCamera(_cameraRotationX);
+        
+    }
 
-        foreach (Touch touch in Input.touches)
+    //public void CameraControl()
+    //{
+    //    foreach (Touch touch in Input.touches)
+    //    {
+    //        if (touch.phase == TouchPhase.Began)
+    //        {
+    //            initTouch = touch;
+
+    //        }
+    //        else if (touch.phase == TouchPhase.Moved)
+    //        {
+    //            _xRot -= touch.deltaPosition.y * Time.deltaTime;
+    //            _yRot += touch.deltaPosition.x * Time.deltaTime;
+    //            Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
+    //            motor.Rotate(_rotation);
+    //            _cameraRotationX = _xRot * lookSensitivity;
+    //            motor.RotateCamera(_cameraRotationX);
+    //        }
+    //        else if (touch.phase == TouchPhase.Ended)
+    //        {
+    //            initTouch = new Touch();
+    //        }
+    //    }
+    //}
+
+    public void CameraControl()
+    {
+        if(Input.touchCount > 0)
         {
+            Touch touch = Input.touches[0];
+
             if (touch.phase == TouchPhase.Began)
             {
                 initTouch = touch;
-
             }
             else if (touch.phase == TouchPhase.Moved)
             {
-                if (swipes)
-                {
-                    _xRot -= touch.deltaPosition.y * Time.deltaTime;
-                    _yRot += touch.deltaPosition.x * Time.deltaTime;
-                    Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-                    motor.Rotate(_rotation);
-                    float _cameraRotationX = _xRot * lookSensitivity;
-                    motor.RotateCamera(_cameraRotationX);
-                }
+                _xRot -= touch.deltaPosition.y * Time.deltaTime;
+                _yRot += touch.deltaPosition.x * Time.deltaTime;
+                Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
+                motor.Rotate(_rotation);
+                _cameraRotationX = _xRot * lookSensitivity;
+                motor.RotateCamera(_cameraRotationX);
             }
             else if (touch.phase == TouchPhase.Ended)
             {
                 initTouch = new Touch();
             }
         }
-
     }
-
-    public void SwipeOn()
-    {
-        swipes = true;
-    }
-
-    public void SwipeOff()
-    {
-        swipes = false;
-    }
-
 }

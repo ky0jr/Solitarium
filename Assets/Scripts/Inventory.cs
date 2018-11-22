@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Inventory : MonoBehaviour {
 
@@ -20,7 +21,7 @@ public class Inventory : MonoBehaviour {
     
     public void Add(InteracableObject item)
     {
-        //if(!SameObject(item))
+        if(!SameObject(item))
             items.Add(item);
 
         if (onItemChangedCallback != null)

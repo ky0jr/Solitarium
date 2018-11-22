@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: d6da24b86d42aaa4384e0a0050c417e8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: kursi meja
+    100004: kursi meja001
+    100006: kursi meja002
+    100008: kursi meja003
+    100010: kursi meja004
+    100012: kursi meja005
+    100014: kursi meja006
+    100016: kursi meja007
+    100018: kursi meja008
+    100020: kursi meja009
+    100022: kursi meja010
+    100024: kursi meja011
+    400000: //RootNode
+    400002: kursi meja
+    400004: kursi meja001
+    400006: kursi meja002
+    400008: kursi meja003
+    400010: kursi meja004
+    400012: kursi meja005
+    400014: kursi meja006
+    400016: kursi meja007
+    400018: kursi meja008
+    400020: kursi meja009
+    400022: kursi meja010
+    400024: kursi meja011
+    2100000: 08 - Default
+    2300000: kursi meja
+    2300002: kursi meja001
+    2300004: kursi meja002
+    2300006: kursi meja003
+    2300008: kursi meja004
+    2300010: kursi meja005
+    2300012: kursi meja006
+    2300014: kursi meja007
+    2300016: kursi meja008
+    2300018: kursi meja009
+    2300020: kursi meja010
+    2300022: kursi meja011
+    3300000: kursi meja
+    3300002: kursi meja001
+    3300004: kursi meja002
+    3300006: kursi meja003
+    3300008: kursi meja004
+    3300010: kursi meja005
+    3300012: kursi meja006
+    3300014: kursi meja007
+    3300016: kursi meja008
+    3300018: kursi meja009
+    3300020: kursi meja010
+    3300022: kursi meja011
+    4300000: kursi meja
+    4300002: kursi meja001
+    4300004: kursi meja002
+    4300006: kursi meja003
+    4300008: kursi meja004
+    4300010: kursi meja005
+    4300012: kursi meja006
+    4300014: kursi meja007
+    4300016: kursi meja008
+    4300018: kursi meja009
+    4300020: kursi meja010
+    4300022: kursi meja011
+    6400000: kursi meja
+    6400002: kursi meja001
+    6400004: kursi meja002
+    6400006: kursi meja003
+    6400008: kursi meja004
+    6400010: kursi meja005
+    6400012: kursi meja006
+    6400014: kursi meja007
+    6400016: kursi meja008
+    6400018: kursi meja009
+    6400020: kursi meja010
+    6400022: kursi meja011
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: f4518f5e46d8c5c4689b04a9784ef366, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

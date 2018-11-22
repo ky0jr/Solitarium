@@ -20,6 +20,9 @@ public class PlayerRaycasting : MonoBehaviour {
     [SerializeField]
     private Text description;
 
+    [SerializeField]
+    private Transform touchPanel;
+
     public string ObjectName = "";
 
     private RaycastHit hitInfo;
@@ -91,18 +94,32 @@ public class PlayerRaycasting : MonoBehaviour {
             {
                 Destroy(hitInfo.collider.gameObject);
             }
+
+            //tambahan tanggal 6 novemeber 2018 untuk dapatkan return object
+            Debug.Log(Inventory.instance.items.Find(FindItem));
         }
     }
 
     public void InteractButton()
     {
         if (!GameManager.instance.interact && Physics.Raycast(this.transform.position, this.transform.forward, out hitInfo, distanceToSee, mask))
+        {
             Interact(_object, hitInfo);
+            touchPanel.gameObject.SetActive(false);
+        }            
         else
         {
             GameManager.instance.interact = false;
             panel.SetActive(false);
+            touchPanel.gameObject.SetActive(true);
         }
             
+    }
+
+
+    //method di List<InteractableObject> untuk jadi System.Predicate
+    public bool FindItem(InteracableObject find)
+    {       
+        return (find == _object);
     }
 }
