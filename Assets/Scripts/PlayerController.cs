@@ -68,7 +68,35 @@ public class PlayerController : MonoBehaviour {
 
         //Apply camera rotation
         //motor.RotateCamera(_cameraRotationX);
-        
+        foreach(Touch touch in Input.touches)
+        {
+            if (Input.touches.Length >= 0)
+            {
+                if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
+                Debug.Log(touch.fingerId);
+                for (int i = 0; i < Input.touchCount; i++)
+                    {
+                        if (Input.GetTouch(i).phase == TouchPhase.Began)
+                        {
+                            //inittouch = touch;
+                        }
+                        if (Input.GetTouch(i).phase == TouchPhase.Ended)
+                        {
+                            //initTouch = new Touch();
+                        }
+                        if (Input.GetTouch(i).phase == TouchPhase.Moved)
+                        {
+                            _xRot -= Input.GetTouch(0).deltaPosition.y * Time.deltaTime;
+                            _yRot += Input.GetTouch(0).deltaPosition.x * Time.deltaTime;
+                            Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
+                            motor.Rotate(_rotation);
+                            _cameraRotationX = _xRot * lookSensitivity;
+                            motor.RotateCamera(_cameraRotationX);
+                        }
+                    }
+            }
+        }
+            
     }
 
     //public void CameraControl()
@@ -96,7 +124,7 @@ public class PlayerController : MonoBehaviour {
     //    }
     //}
 
-    public void CameraControl()
+    /*public void CameraControl()
     {
         if(Input.touchCount > 0)
         {
@@ -104,7 +132,8 @@ public class PlayerController : MonoBehaviour {
 
             if (touch.phase == TouchPhase.Began)
             {
-                initTouch = touch;
+                //initTouch = touch;
+                touch = initTouch;
             }
             else if (touch.phase == TouchPhase.Moved)
             {
@@ -120,5 +149,34 @@ public class PlayerController : MonoBehaviour {
                 initTouch = new Touch();
             }
         }
+    }*/
+
+    public void CameraControl()
+    {
+        if(Input.touches.Length > 0)
+        {
+            for(int i = 0; i < Input.touchCount; i++)
+            {
+                if (Input.GetTouch(i).phase == TouchPhase.Began)
+                {
+                    //inittouch = touch;
+                }
+                if (Input.GetTouch(i).phase == TouchPhase.Ended)
+                {
+                    initTouch = new Touch();
+                }
+                if(Input.GetTouch(i).phase == TouchPhase.Moved)
+                {
+                    _xRot -= Input.GetTouch(0).deltaPosition.y * Time.deltaTime;
+                    _yRot += Input.GetTouch(0).deltaPosition.x * Time.deltaTime;
+                    Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
+                    motor.Rotate(_rotation);
+                    _cameraRotationX = _xRot * lookSensitivity;
+                    motor.RotateCamera(_cameraRotationX);
+                }
+            }
+        }
+        
+        
     }
 }

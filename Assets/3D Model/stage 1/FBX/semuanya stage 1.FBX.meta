@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: e87f398739d97d44296acba41248b236
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bantal
+    100002: biology worksheet
+    100004: Box002
+    100006: Box003
+    100008: Box004
+    100010: buku002
+    100012: buku003
+    100014: buku004
+    100016: buku005
+    100018: buku006
+    100020: buku007
+    100022: buku008
+    100024: buku009
+    100026: Cylinder001
+    100028: Cylinder002
+    100030: Cylinder003
+    100032: darah
+    100034: frame jendela
+    100036: frame pintu
+    100038: gagang
+    100040: gagang001
+    100042: jendela
+    100044: Kasur
+    100046: kodok
+    100048: kursi
+    100050: lemari
+    100052: meja
+    100054: pegangan pintu
+    100056: pintu
+    100058: pintu lemari
+    100060: pintu lemari001
+    100062: Plane001
+    100064: Plane002
+    100066: Plane003
+    100068: Plane004
+    100070: rak buku
+    100072: ruangan
+    100074: selimut
+    100076: //RootNode
+    100078: tempat tidur
+    400000: bantal
+    400002: biology worksheet
+    400004: Box002
+    400006: Box003
+    400008: Box004
+    400010: buku002
+    400012: buku003
+    400014: buku004
+    400016: buku005
+    400018: buku006
+    400020: buku007
+    400022: buku008
+    400024: buku009
+    400026: Cylinder001
+    400028: Cylinder002
+    400030: Cylinder003
+    400032: darah
+    400034: frame jendela
+    400036: frame pintu
+    400038: gagang
+    400040: gagang001
+    400042: jendela
+    400044: Kasur
+    400046: kodok
+    400048: kursi
+    400050: lemari
+    400052: meja
+    400054: pegangan pintu
+    400056: pintu
+    400058: pintu lemari
+    400060: pintu lemari001
+    400062: Plane001
+    400064: Plane002
+    400066: Plane003
+    400068: Plane004
+    400070: rak buku
+    400072: ruangan
+    400074: selimut
+    400076: //RootNode
+    400078: tempat tidur
+    2100000: No Name
+    2100002: 05 - Default
+    2100004: 10 - Default
+    2100006: 15 - Default
+    2100008: 09 - Default
+    2100010: 08 - Default
+    2100012: 'Material #1'
+    2100014: 19 - Default
+    2100016: 02 - Default
+    2100018: wire_087225198
+    2100020: 13 - Default
+    2100022: 03 - Default
+    2100024: 'Material #2'
+    2100026: 11 - Default
+    2100028: 'Material #0'
+    2300000: bantal
+    2300002: biology worksheet
+    2300004: Box002
+    2300006: Box003
+    2300008: Box004
+    2300010: buku002
+    2300012: buku003
+    2300014: buku004
+    2300016: buku005
+    2300018: buku006
+    2300020: buku007
+    2300022: buku008
+    2300024: buku009
+    2300026: Cylinder001
+    2300028: Cylinder002
+    2300030: Cylinder003
+    2300032: darah
+    2300034: frame jendela
+    2300036: frame pintu
+    2300038: gagang
+    2300040: gagang001
+    2300042: jendela
+    2300044: Kasur
+    2300046: kodok
+    2300048: kursi
+    2300050: lemari
+    2300052: meja
+    2300054: pegangan pintu
+    2300056: pintu
+    2300058: pintu lemari
+    2300060: pintu lemari001
+    2300062: Plane001
+    2300064: Plane002
+    2300066: Plane003
+    2300068: Plane004
+    2300070: rak buku
+    2300072: ruangan
+    2300074: selimut
+    2300076: tempat tidur
+    3300000: bantal
+    3300002: biology worksheet
+    3300004: Box002
+    3300006: Box003
+    3300008: Box004
+    3300010: buku002
+    3300012: buku003
+    3300014: buku004
+    3300016: buku005
+    3300018: buku006
+    3300020: buku007
+    3300022: buku008
+    3300024: buku009
+    3300026: Cylinder001
+    3300028: Cylinder002
+    3300030: Cylinder003
+    3300032: darah
+    3300034: frame jendela
+    3300036: frame pintu
+    3300038: gagang
+    3300040: gagang001
+    3300042: jendela
+    3300044: Kasur
+    3300046: kodok
+    3300048: kursi
+    3300050: lemari
+    3300052: meja
+    3300054: pegangan pintu
+    3300056: pintu
+    3300058: pintu lemari
+    3300060: pintu lemari001
+    3300062: Plane001
+    3300064: Plane002
+    3300066: Plane003
+    3300068: Plane004
+    3300070: rak buku
+    3300072: ruangan
+    3300074: selimut
+    3300076: tempat tidur
+    4300000: ruangan
+    4300002: tempat tidur
+    4300004: rak buku
+    4300006: meja
+    4300008: Cylinder001
+    4300010: selimut
+    4300012: bantal
+    4300014: Kasur
+    4300016: frame pintu
+    4300018: pintu
+    4300020: pegangan pintu
+    4300022: kursi
+    4300024: buku002
+    4300026: buku003
+    4300028: biology worksheet
+    4300030: darah
+    4300032: frame jendela
+    4300034: jendela
+    4300036: Plane001
+    4300038: kodok
+    4300040: Plane002
+    4300042: Cylinder002
+    4300044: Cylinder003
+    4300046: lemari
+    4300048: gagang
+    4300050: pintu lemari
+    4300052: pintu lemari001
+    4300054: gagang001
+    4300056: buku004
+    4300058: buku005
+    4300060: buku006
+    4300062: buku007
+    4300064: buku008
+    4300066: buku009
+    4300068: Box002
+    4300070: Plane003
+    4300072: Plane004
+    4300074: Box003
+    4300076: Box004
+    6400000: bantal
+    6400002: biology worksheet
+    6400004: Box002
+    6400006: Box003
+    6400008: Box004
+    6400010: buku002
+    6400012: buku003
+    6400014: buku004
+    6400016: buku005
+    6400018: buku006
+    6400020: buku007
+    6400022: buku008
+    6400024: buku009
+    6400026: Cylinder001
+    6400028: Cylinder002
+    6400030: Cylinder003
+    6400032: darah
+    6400034: frame jendela
+    6400036: frame pintu
+    6400038: gagang
+    6400040: gagang001
+    6400042: jendela
+    6400044: Kasur
+    6400046: kodok
+    6400048: kursi
+    6400050: lemari
+    6400052: meja
+    6400054: pegangan pintu
+    6400056: pintu
+    6400058: pintu lemari
+    6400060: pintu lemari001
+    6400062: Plane001
+    6400064: Plane002
+    6400066: Plane003
+    6400068: Plane004
+    6400070: rak buku
+    6400072: ruangan
+    6400074: selimut
+    6400076: tempat tidur
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 10140ccf63431c04eba3ec1d100b48ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 37b8bcef908a08242a2a5c98dadf55d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 993d5c55202539d409bcc292c8e03972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 0cc95662cd8e2104696236478ed2ffe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: 1409650e2d5a2f949b109c835a242721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: 3dd34e6457ba6d541b777294e98e26b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
+    second: {fileID: 2100000, guid: 8e7e80e45cb298a4bb3daea08f9dfdea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: 4ea2651c14395e847bb4970d407bf57d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: 27e95b67bc61ede409b29ce50e5dfabf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: a48c3a98366b2a14a9a7b3ce5013ea81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #0'
+    second: {fileID: 2100000, guid: 13568e70b69c96c4fb2a912e7f44c561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1'
+    second: {fileID: 2100000, guid: 0f34a2152923c0a4d912fa8b59c4c79f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 6f2d4bbebbd5c834f8cb90d6f8b9dc08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: ea5084d3a5456684c842e68e82eb97ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_087225198
+    second: {fileID: 2100000, guid: 0c57bcd4a600a2347aa923a4b9a72670, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

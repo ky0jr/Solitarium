@@ -27,6 +27,7 @@ public class PlayerRaycasting : MonoBehaviour {
 
     private RaycastHit hitInfo;
     private InteracableObject _object;
+
     void Start()
     {
         
