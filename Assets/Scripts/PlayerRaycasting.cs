@@ -63,7 +63,7 @@ public class PlayerRaycasting : MonoBehaviour {
             
             _object = hitInfo.collider.GetComponent<ObjectInteraction>()._object;
             //ObjectName = hitInfo.collider.gameObject.name;
-            Debug.Log("Saya pukul " + _object._name);
+            //Debug.Log("Saya pukul " + _object._name);
             highlight.text = _object._name;
             highlight.gameObject.SetActive(true);
             
