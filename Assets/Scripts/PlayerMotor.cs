@@ -59,11 +59,11 @@ public class PlayerMotor : MonoBehaviour {
 
     void PerformRotation()
     {
-        rb.MoveRotation(Quaternion.Euler(rotation));
+        rb.MoveRotation(Quaternion.Euler(rotation*Time.deltaTime) *rb.rotation);
         if (cam != null)
         {
             //Set our camera rotation and clamp it
-            currentCameraRotationX = cameraRotationX;
+            currentCameraRotationX -= cameraRotationX * Time.deltaTime;
             currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
 
             //Apply our rotation to the transform of our camera

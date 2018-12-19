@@ -15,12 +15,9 @@ public class PlayerController : MonoBehaviour {
 
     private PlayerMotor motor;
 
-    private Touch initTouch = new Touch();
+    public Vector2 LookAxis;
 
-    private float _xRot = 0f;
-    private float _yRot = 0f;
-
-    private float _cameraRotationX = 0f;
+    public FixedTouchField touchField;
 
     private void Start()
     {
@@ -29,13 +26,10 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
-        //Debug.Log("Print: " + Time.deltaTime);
-        //Debug.Log("Print fix: " + Time.fixedDeltaTime);
+        LookAxis = touchField.TouchDist;
         if (GameManager.instance.interact || Inventory.instance.isInven)
         {
             motor.Move(Vector3.zero);
-            //motor.Rotate(Vector3.zero);
-            //motor.RotateCamera(_cameraRotationX);
             return;
         }
 
@@ -46,7 +40,7 @@ public class PlayerController : MonoBehaviour {
 
         Vector3 _movVertical = transform.forward * _zMov;
         Vector3 _movHorizontal = transform.right * _xMov;
-        //Debug.Log((_movHorizontal + _movVertical).normalized);
+
         //Final movement vector
         Vector3 _velocity = (_movHorizontal + _movVertical).normalized * speed;
 
@@ -54,129 +48,21 @@ public class PlayerController : MonoBehaviour {
         motor.Move(_velocity);
 
         //Calculate rotation as a 3D vector
-        //float _yRot = Input.GetAxisRaw("Mouse X");
+        float _yRot = LookAxis.x;
 
-        //Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
+        Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
 
         //Apply rotation
-        //motor.Rotate(_rotation);
+        motor.Rotate(_rotation);
 
         //Calculate camera rotation as a 3D vector
-        //float _xRot = Input.GetAxisRaw("Mouse Y");
-
-        //float _cameraRotationX = _xRot * lookSensitivity;
+        float _xRot = LookAxis.y;
+        float _cameraRotationX = _xRot * lookSensitivity;
 
         //Apply camera rotation
-        //motor.RotateCamera(_cameraRotationX);
-        foreach(Touch touch in Input.touches)
-        {
-            if (Input.touches.Length >= 0)
-            {
-                if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) return;
-                Debug.Log(touch.fingerId);
-                for (int i = 0; i < Input.touchCount; i++)
-                    {
-                        if (Input.GetTouch(i).phase == TouchPhase.Began)
-                        {
-                            //inittouch = touch;
-                        }
-                        if (Input.GetTouch(i).phase == TouchPhase.Ended)
-                        {
-                            //initTouch = new Touch();
-                        }
-                        if (Input.GetTouch(i).phase == TouchPhase.Moved)
-                        {
-                            _xRot -= Input.GetTouch(0).deltaPosition.y * Time.deltaTime;
-                            _yRot += Input.GetTouch(0).deltaPosition.x * Time.deltaTime;
-                            Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-                            motor.Rotate(_rotation);
-                            _cameraRotationX = _xRot * lookSensitivity;
-                            motor.RotateCamera(_cameraRotationX);
-                        }
-                    }
-            }
-        }
+        motor.RotateCamera(_cameraRotationX);
             
     }
 
-    //public void CameraControl()
-    //{
-    //    foreach (Touch touch in Input.touches)
-    //    {
-    //        if (touch.phase == TouchPhase.Began)
-    //        {
-    //            initTouch = touch;
 
-    //        }
-    //        else if (touch.phase == TouchPhase.Moved)
-    //        {
-    //            _xRot -= touch.deltaPosition.y * Time.deltaTime;
-    //            _yRot += touch.deltaPosition.x * Time.deltaTime;
-    //            Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-    //            motor.Rotate(_rotation);
-    //            _cameraRotationX = _xRot * lookSensitivity;
-    //            motor.RotateCamera(_cameraRotationX);
-    //        }
-    //        else if (touch.phase == TouchPhase.Ended)
-    //        {
-    //            initTouch = new Touch();
-    //        }
-    //    }
-    //}
-
-    /*public void CameraControl()
-    {
-        if(Input.touchCount > 0)
-        {
-            Touch touch = Input.touches[0];
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                //initTouch = touch;
-                touch = initTouch;
-            }
-            else if (touch.phase == TouchPhase.Moved)
-            {
-                _xRot -= touch.deltaPosition.y * Time.deltaTime;
-                _yRot += touch.deltaPosition.x * Time.deltaTime;
-                Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-                motor.Rotate(_rotation);
-                _cameraRotationX = _xRot * lookSensitivity;
-                motor.RotateCamera(_cameraRotationX);
-            }
-            else if (touch.phase == TouchPhase.Ended)
-            {
-                initTouch = new Touch();
-            }
-        }
-    }*/
-
-    public void CameraControl()
-    {
-        if(Input.touches.Length > 0)
-        {
-            for(int i = 0; i < Input.touchCount; i++)
-            {
-                if (Input.GetTouch(i).phase == TouchPhase.Began)
-                {
-                    //inittouch = touch;
-                }
-                if (Input.GetTouch(i).phase == TouchPhase.Ended)
-                {
-                    initTouch = new Touch();
-                }
-                if(Input.GetTouch(i).phase == TouchPhase.Moved)
-                {
-                    _xRot -= Input.GetTouch(0).deltaPosition.y * Time.deltaTime;
-                    _yRot += Input.GetTouch(0).deltaPosition.x * Time.deltaTime;
-                    Vector3 _rotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-                    motor.Rotate(_rotation);
-                    _cameraRotationX = _xRot * lookSensitivity;
-                    motor.RotateCamera(_cameraRotationX);
-                }
-            }
-        }
-        
-        
-    }
 }

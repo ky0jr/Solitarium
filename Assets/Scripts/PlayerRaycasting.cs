@@ -26,7 +26,7 @@ public class PlayerRaycasting : MonoBehaviour {
     public string ObjectName = "";
 
     private RaycastHit hitInfo;
-    private InteracableObject _object;
+    private ObjectInteraction _object;
 
     void Start()
     {
@@ -61,15 +61,15 @@ public class PlayerRaycasting : MonoBehaviour {
 
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hitInfo, distanceToSee, mask))        {
             
-            _object = hitInfo.collider.GetComponent<ObjectInteraction>()._object;
+            _object = hitInfo.collider.GetComponent<ObjectInteraction>();
             //ObjectName = hitInfo.collider.gameObject.name;
             //Debug.Log("Saya pukul " + _object._name);
-            highlight.text = _object._name;
+            highlight.text = _object._object._name;
             highlight.gameObject.SetActive(true);
             
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Interact(_object, hitInfo);         
+                //Interact(_object, hitInfo);         
             }
             
         }
@@ -81,15 +81,16 @@ public class PlayerRaycasting : MonoBehaviour {
         }        
     }
 
-    public void Interact(InteracableObject _object, RaycastHit hitInfo)
+    public void Interact(InteractableObject _object, RaycastHit hitInfo)
     {
         GameManager.instance.interact = true;
 
 
         description.text = _object.description;
         panel.SetActive(true);
-        if (_object.isClue && !Inventory.instance.SameObject(_object))
+        if (_object.isClue && !this._object.alreadyPickup)
         {
+            this._object.alreadyPickup = true;
             Inventory.instance.Add(_object);
             if (_object.isPickupable)
             {
@@ -105,7 +106,7 @@ public class PlayerRaycasting : MonoBehaviour {
     {
         if (!GameManager.instance.interact && Physics.Raycast(this.transform.position, this.transform.forward, out hitInfo, distanceToSee, mask))
         {
-            Interact(_object, hitInfo);
+            Interact(_object._object, hitInfo);
             touchPanel.gameObject.SetActive(false);
         }            
         else
@@ -119,7 +120,7 @@ public class PlayerRaycasting : MonoBehaviour {
 
 
     //method di List<InteractableObject> untuk jadi System.Predicate
-    public bool FindItem(InteracableObject find)
+    public bool FindItem(InteractableObject find)
     {       
         return (find == _object);
     }

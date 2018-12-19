@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "new Object", menuName = "InteracableObject")]
-public class InteracableObject : ScriptableObject {
+public class InteractableObject : ScriptableObject {
 
     public string _name = "name";
 

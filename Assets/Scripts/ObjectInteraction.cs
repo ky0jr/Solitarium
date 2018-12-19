@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjectInteraction : MonoBehaviour {
 
-	public InteracableObject _object;
+	public InteractableObject _object;
+    public bool alreadyPickup = false;
 
 }

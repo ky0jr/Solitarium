@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour {
 
     public static Inventory instance = null;
 
-    public List<InteracableObject> items = new List<InteracableObject>();
+    public List<InteractableObject> items = new List<InteractableObject>();
 
     public bool isInven = false;
 
@@ -19,28 +19,15 @@ public class Inventory : MonoBehaviour {
         instance = this; 
     }
     
-    public void Add(InteracableObject item)
+    public void Add(InteractableObject item)
     {
-        if(!SameObject(item))
-            items.Add(item);
+        items.Add(item);
 
         if (onItemChangedCallback != null)
             onItemChangedCallback.Invoke();
     }
 
-    public bool SameObject(InteracableObject item)
-    {
-        foreach(InteracableObject _item in items)
-        {
-            if(_item == item)
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }
-    public void Remove(InteracableObject item)
+    public void Remove(InteractableObject item)
     {
         items.Remove(item);
 
