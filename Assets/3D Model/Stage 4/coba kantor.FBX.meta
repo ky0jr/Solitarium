@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 0b6fae46533b0e4488d8599f4f717687
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box034
+    100002: Box035
+    100004: Box036
+    100006: Box037
+    100008: Box038
+    100010: Box039
+    100012: Box061
+    100014: Box071
+    100016: Box086
+    100018: Box087
+    100020: Box096
+    100022: Box103
+    100024: Box104
+    100026: Box105
+    100028: Box106
+    100030: Box107
+    100032: Box108
+    100034: Box109
+    100036: Box110
+    100038: Box111
+    100040: Box112
+    100042: Box115
+    100044: Box116
+    100046: Box117
+    100048: Box118
+    100050: Box119
+    100052: Box120
+    100054: Box121
+    100056: Box122
+    100058: Box124
+    100060: Box125
+    100062: Box126
+    100064: Box127
+    100066: Box128
+    100068: Box129
+    100070: Box130
+    100072: Box131
+    100074: Box132
+    100076: Box133
+    100078: Box134
+    100080: Box135
+    100082: Box136
+    100084: Box137
+    100086: Box138
+    100088: Box139
+    100090: Box140
+    100092: broken lamp
+    100094: //RootNode
+    100096: cpu004
+    100098: Cylinder001
+    100100: Cylinder004
+    100102: Cylinder005
+    100104: Cylinder006
+    100106: darah
+    100108: eotm
+    100110: eotm001
+    100112: eotm002
+    100114: eotm003
+    100116: fax003
+    100118: hape
+    100120: kaki 1
+    100122: kaki 2
+    100124: kaki 3
+    100126: kaki 4
+    100128: keyboard004
+    100130: kursi gudang
+    100132: kursi gudang 1
+    100134: kursi004
+    100136: lantai003
+    100138: lantai004
+    100140: lemari
+    100142: lemari kecil
+    100144: lemari001
+    100146: lemari002
+    100148: meja004
+    100150: meja005
+    100152: monitor004
+    100154: mose004
+    100156: pintu
+    100158: pintu gudang
+    100160: Plane002
+    100162: Plane005
+    100164: Plane006
+    100166: Plane007
+    100168: Torus001
+    400000: Box034
+    400002: Box035
+    400004: Box036
+    400006: Box037
+    400008: Box038
+    400010: Box039
+    400012: Box061
+    400014: Box071
+    400016: Box086
+    400018: Box087
+    400020: Box096
+    400022: Box103
+    400024: Box104
+    400026: Box105
+    400028: Box106
+    400030: Box107
+    400032: Box108
+    400034: Box109
+    400036: Box110
+    400038: Box111
+    400040: Box112
+    400042: Box115
+    400044: Box116
+    400046: Box117
+    400048: Box118
+    400050: Box119
+    400052: Box120
+    400054: Box121
+    400056: Box122
+    400058: Box124
+    400060: Box125
+    400062: Box126
+    400064: Box127
+    400066: Box128
+    400068: Box129
+    400070: Box130
+    400072: Box131
+    400074: Box132
+    400076: Box133
+    400078: Box134
+    400080: Box135
+    400082: Box136
+    400084: Box137
+    400086: Box138
+    400088: Box139
+    400090: Box140
+    400092: broken lamp
+    400094: //RootNode
+    400096: cpu004
+    400098: Cylinder001
+    400100: Cylinder004
+    400102: Cylinder005
+    400104: Cylinder006
+    400106: darah
+    400108: eotm
+    400110: eotm001
+    400112: eotm002
+    400114: eotm003
+    400116: fax003
+    400118: hape
+    400120: kaki 1
+    400122: kaki 2
+    400124: kaki 3
+    400126: kaki 4
+    400128: keyboard004
+    400130: kursi gudang
+    400132: kursi gudang 1
+    400134: kursi004
+    400136: lantai003
+    400138: lantai004
+    400140: lemari
+    400142: lemari kecil
+    400144: lemari001
+    400146: lemari002
+    400148: meja004
+    400150: meja005
+    400152: monitor004
+    400154: mose004
+    400156: pintu
+    400158: pintu gudang
+    400160: Plane002
+    400162: Plane005
+    400164: Plane006
+    400166: Plane007
+    400168: Torus001
+    2100000: No Name
+    2300000: Box034
+    2300002: Box035
+    2300004: Box036
+    2300006: Box037
+    2300008: Box038
+    2300010: Box039
+    2300012: Box061
+    2300014: Box071
+    2300016: Box086
+    2300018: Box087
+    2300020: Box096
+    2300022: Box103
+    2300024: Box104
+    2300026: Box105
+    2300028: Box106
+    2300030: Box107
+    2300032: Box108
+    2300034: Box109
+    2300036: Box110
+    2300038: Box111
+    2300040: Box112
+    2300042: Box115
+    2300044: Box116
+    2300046: Box117
+    2300048: Box118
+    2300050: Box119
+    2300052: Box120
+    2300054: Box121
+    2300056: Box122
+    2300058: Box124
+    2300060: Box125
+    2300062: Box126
+    2300064: Box127
+    2300066: Box128
+    2300068: Box129
+    2300070: Box130
+    2300072: Box131
+    2300074: Box132
+    2300076: Box133
+    2300078: Box134
+    2300080: Box135
+    2300082: Box136
+    2300084: Box137
+    2300086: Box138
+    2300088: Box139
+    2300090: Box140
+    2300092: cpu004
+    2300094: Cylinder001
+    2300096: Cylinder004
+    2300098: Cylinder005
+    2300100: Cylinder006
+    2300102: darah
+    2300104: eotm
+    2300106: eotm001
+    2300108: eotm002
+    2300110: eotm003
+    2300112: hape
+    2300114: kaki 1
+    2300116: kaki 2
+    2300118: kaki 3
+    2300120: kaki 4
+    2300122: keyboard004
+    2300124: kursi gudang 1
+    2300126: lantai003
+    2300128: lantai004
+    2300130: meja004
+    2300132: meja005
+    2300134: mose004
+    2300136: Plane002
+    2300138: Plane005
+    2300140: Plane006
+    2300142: Plane007
+    2300144: Torus001
+    3300000: Box034
+    3300002: Box035
+    3300004: Box036
+    3300006: Box037
+    3300008: Box038
+    3300010: Box039
+    3300012: Box061
+    3300014: Box071
+    3300016: Box086
+    3300018: Box087
+    3300020: Box096
+    3300022: Box103
+    3300024: Box104
+    3300026: Box105
+    3300028: Box106
+    3300030: Box107
+    3300032: Box108
+    3300034: Box109
+    3300036: Box110
+    3300038: Box111
+    3300040: Box112
+    3300042: Box115
+    3300044: Box116
+    3300046: Box117
+    3300048: Box118
+    3300050: Box119
+    3300052: Box120
+    3300054: Box121
+    3300056: Box122
+    3300058: Box124
+    3300060: Box125
+    3300062: Box126
+    3300064: Box127
+    3300066: Box128
+    3300068: Box129
+    3300070: Box130
+    3300072: Box131
+    3300074: Box132
+    3300076: Box133
+    3300078: Box134
+    3300080: Box135
+    3300082: Box136
+    3300084: Box137
+    3300086: Box138
+    3300088: Box139
+    3300090: Box140
+    3300092: cpu004
+    3300094: Cylinder001
+    3300096: Cylinder004
+    3300098: Cylinder005
+    3300100: Cylinder006
+    3300102: darah
+    3300104: eotm
+    3300106: eotm001
+    3300108: eotm002
+    3300110: eotm003
+    3300112: hape
+    3300114: kaki 1
+    3300116: kaki 2
+    3300118: kaki 3
+    3300120: kaki 4
+    3300122: keyboard004
+    3300124: kursi gudang 1
+    3300126: lantai003
+    3300128: lantai004
+    3300130: meja004
+    3300132: meja005
+    3300134: mose004
+    3300136: Plane002
+    3300138: Plane005
+    3300140: Plane006
+    3300142: Plane007
+    3300144: Torus001
+    4300000: hape
+    4300002: cpu004
+    4300004: keyboard004
+    4300006: Box037
+    4300008: Box038
+    4300010: Box039
+    4300012: meja004
+    4300014: Box034
+    4300016: Box035
+    4300018: Box036
+    4300020: eotm
+    4300022: Box061
+    4300024: Cylinder001
+    4300026: Box071
+    4300028: Box086
+    4300030: Box087
+    4300032: mose004
+    4300034: eotm001
+    4300036: eotm002
+    4300038: eotm003
+    4300040: Box096
+    4300042: Box107
+    4300044: Plane002
+    4300046: Box112
+    4300048: Box108
+    4300050: Box109
+    4300052: Box110
+    4300054: Box111
+    4300056: Cylinder005
+    4300058: Cylinder004
+    4300060: Box115
+    4300062: Box117
+    4300064: Box116
+    4300066: Box103
+    4300068: Box105
+    4300070: Box104
+    4300072: Box106
+    4300074: meja005
+    4300076: Plane005
+    4300078: Box118
+    4300080: Box119
+    4300082: Box120
+    4300084: Box121
+    4300086: Plane006
+    4300088: Plane007
+    4300090: Box126
+    4300092: Box127
+    4300094: Box128
+    4300096: Box129
+    4300098: Box130
+    4300100: Box131
+    4300102: Box132
+    4300104: Box124
+    4300106: Box122
+    4300108: Box125
+    4300110: Box133
+    4300112: Box134
+    4300114: Box135
+    4300116: Box136
+    4300118: Box137
+    4300120: Box138
+    4300122: Box139
+    4300124: Box140
+    4300126: Cylinder006
+    4300128: Torus001
+    4300130: darah
+    4300132: kaki 4
+    4300134: kaki 3
+    4300136: kaki 2
+    4300138: kaki 1
+    4300140: kursi gudang
+    4300142: lantai003
+    4300144: lantai004
+    6400000: Box034
+    6400002: Box035
+    6400004: Box036
+    6400006: Box037
+    6400008: Box038
+    6400010: Box039
+    6400012: Box061
+    6400014: Box071
+    6400016: Box086
+    6400018: Box087
+    6400020: Box096
+    6400022: Box103
+    6400024: Box104
+    6400026: Box105
+    6400028: Box106
+    6400030: Box107
+    6400032: Box108
+    6400034: Box109
+    6400036: Box110
+    6400038: Box111
+    6400040: Box112
+    6400042: Box115
+    6400044: Box116
+    6400046: Box117
+    6400048: Box118
+    6400050: Box119
+    6400052: Box120
+    6400054: Box121
+    6400056: Box122
+    6400058: Box124
+    6400060: Box125
+    6400062: Box126
+    6400064: Box127
+    6400066: Box128
+    6400068: Box129
+    6400070: Box130
+    6400072: Box131
+    6400074: Box132
+    6400076: Box133
+    6400078: Box134
+    6400080: Box135
+    6400082: Box136
+    6400084: Box137
+    6400086: Box138
+    6400088: Box139
+    6400090: Box140
+    6400092: cpu004
+    6400094: Cylinder001
+    6400096: Cylinder004
+    6400098: Cylinder005
+    6400100: Cylinder006
+    6400102: darah
+    6400104: eotm
+    6400106: eotm001
+    6400108: eotm002
+    6400110: eotm003
+    6400112: hape
+    6400114: kaki 1
+    6400116: kaki 2
+    6400118: kaki 3
+    6400120: kaki 4
+    6400122: keyboard004
+    6400124: kursi gudang 1
+    6400126: lantai003
+    6400128: lantai004
+    6400130: meja004
+    6400132: meja005
+    6400134: mose004
+    6400136: Plane002
+    6400138: Plane005
+    6400140: Plane006
+    6400142: Plane007
+    6400144: Torus001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 0bcc038996896d6499d247c7ad8d385a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.33
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

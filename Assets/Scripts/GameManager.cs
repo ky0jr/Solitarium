@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null; //Static instance of GameManager which allows it to be accessed by any other script.
 
     public bool interact = false;
+
+    public string sceneName = "";
+
+    private Scene scene;
 
     //Awake is always called before any Start functions
     void Awake()
@@ -27,4 +32,18 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
     }
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+        Debug.Log(sceneName);
+    }
+
+
 }

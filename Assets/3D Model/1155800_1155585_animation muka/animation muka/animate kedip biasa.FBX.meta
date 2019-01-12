@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 5140cdadc7c0728489356afa8d90d1b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: baju
+    100004: body
+    100006: celana
+    100008: Chest_CTRL
+    100010: Head_CTRL
+    100012: Head_J
+    100014: Headtip_J
+    100016: hidung
+    100018: Hip_CTRL
+    100020: Hip_J
+    100022: ik_Lefthand
+    100024: ik_Leftleg
+    100026: ik_Righthand
+    100028: ik_Rightleg
+    100030: ik_Spine
+    100032: L_BaseThumb_CTRL
+    100034: L_Clevical_J
+    100036: L_Elbow_J
+    100038: L_FingerTip_J
+    100040: L_Foot_CTRL
+    100042: L_Foot_J
+    100044: L_Hand_CTRL
+    100046: L_HandTIP_CTRL
+    100048: L_Knee_J
+    100050: L_LegTop_J
+    100052: L_Palm_CTRL
+    100054: L_Palm_J
+    100056: L_Shoulder_J
+    100058: L_ThumbTip_CTRL
+    100060: L_Toe_J
+    100062: L_ToeTop_J
+    100064: L_Tumb_J
+    100066: L_TumbTip_J
+    100068: L_Wrist_J
+    100070: me_body_geo
+    100072: Neck_J
+    100074: R_BaseThumb_CTRL
+    100076: R_Clevical_J
+    100078: R_Elbow_J
+    100080: R_FingerTip_CTRL
+    100082: R_FingerTip_J
+    100084: R_Foot_CTRL
+    100086: R_Foot_J
+    100088: R_Hand_CTRL
+    100090: R_Knee_J
+    100092: R_LegTop_J
+    100094: R_Palm_CTRL
+    100096: R_Palm_J
+    100098: R_Shoulder_J
+    100100: R_ThumbTip_CTRL
+    100102: R_Toe_J
+    100104: R_ToeTop_J
+    100106: R_Tumb_J
+    100108: R_TumbTip_J
+    100110: R_Wrist_J
+    100112: rambut
+    100114: sepatu
+    100116: Spine01_J
+    100118: Spine02_J
+    100120: Spine03_J
+    100122: spine_curve
+    100124: THE_MASTAAAA_CTRL
+    400000: //RootNode
+    400002: baju
+    400004: body
+    400006: celana
+    400008: Chest_CTRL
+    400010: Head_CTRL
+    400012: Head_J
+    400014: Headtip_J
+    400016: hidung
+    400018: Hip_CTRL
+    400020: Hip_J
+    400022: ik_Lefthand
+    400024: ik_Leftleg
+    400026: ik_Righthand
+    400028: ik_Rightleg
+    400030: ik_Spine
+    400032: L_BaseThumb_CTRL
+    400034: L_Clevical_J
+    400036: L_Elbow_J
+    400038: L_FingerTip_J
+    400040: L_Foot_CTRL
+    400042: L_Foot_J
+    400044: L_Hand_CTRL
+    400046: L_HandTIP_CTRL
+    400048: L_Knee_J
+    400050: L_LegTop_J
+    400052: L_Palm_CTRL
+    400054: L_Palm_J
+    400056: L_Shoulder_J
+    400058: L_ThumbTip_CTRL
+    400060: L_Toe_J
+    400062: L_ToeTop_J
+    400064: L_Tumb_J
+    400066: L_TumbTip_J
+    400068: L_Wrist_J
+    400070: me_body_geo
+    400072: Neck_J
+    400074: R_BaseThumb_CTRL
+    400076: R_Clevical_J
+    400078: R_Elbow_J
+    400080: R_FingerTip_CTRL
+    400082: R_FingerTip_J
+    400084: R_Foot_CTRL
+    400086: R_Foot_J
+    400088: R_Hand_CTRL
+    400090: R_Knee_J
+    400092: R_LegTop_J
+    400094: R_Palm_CTRL
+    400096: R_Palm_J
+    400098: R_Shoulder_J
+    400100: R_ThumbTip_CTRL
+    400102: R_Toe_J
+    400104: R_ToeTop_J
+    400106: R_Tumb_J
+    400108: R_TumbTip_J
+    400110: R_Wrist_J
+    400112: rambut
+    400114: sepatu
+    400116: Spine01_J
+    400118: Spine02_J
+    400120: Spine03_J
+    400122: spine_curve
+    400124: THE_MASTAAAA_CTRL
+    2100000: default1
+    2100002: 07 - Default
+    2100004: 08 - Default
+    2100006: 03 - Default
+    2100008: 02 - Default
+    2100010: sedih
+    2300000: baju
+    2300002: body
+    2300004: celana
+    2300006: hidung
+    2300008: rambut
+    2300010: sepatu
+    3300000: baju
+    3300002: body
+    3300004: celana
+    3300006: hidung
+    3300008: rambut
+    3300010: sepatu
+    4300000: baju
+    4300002: hidung
+    4300004: rambut
+    4300006: celana
+    4300008: sepatu
+    4300010: body
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

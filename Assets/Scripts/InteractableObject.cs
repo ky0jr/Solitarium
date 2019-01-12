@@ -17,5 +17,4 @@ public class InteractableObject : ScriptableObject {
 
     public bool isClue = false;
 
-    public bool isCombineable = false;
 }

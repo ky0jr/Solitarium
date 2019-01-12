@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ecd316b8cc58f4ca39dab2591ed19a, type: 3}
+  m_Name: Bullying
+  m_EditorClassIdentifier: 
+  input1: {fileID: 11400000, guid: 48e5463934fa46e4aa4bbfc09f9487ca, type: 2}
+  input2: {fileID: 11400000, guid: 205e87ca4044d0444997958d78d466a4, type: 2}
+  result: {fileID: 11400000, guid: c1e2157c89eff1d47a036688281db772, type: 2}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ecd316b8cc58f4ca39dab2591ed19a, type: 3}
+  m_Name: MyFriendBag
+  m_EditorClassIdentifier: 
+  input1: {fileID: 11400000, guid: 038076cad555ed244b53c44e8b6e62e3, type: 2}
+  input2: {fileID: 11400000, guid: 6c3bd055ed73eed42a523536f1c830d9, type: 2}
+  result: {fileID: 11400000, guid: 83bd08fabb6fa894ba87e4200436f0cf, type: 2}
