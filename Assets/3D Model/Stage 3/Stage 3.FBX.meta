@@ -1,0 +1,713 @@
+fileFormatVersion: 2
+guid: 1623d80a0c21edb4696afdef5412a0f3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ash Tray
+    100002: Bar Door
+    100004: Bar table top
+    100006: Bottle of Beer001
+    100008: Bottle of Beer002
+    100010: Bottle of Beer003
+    100012: Bottle of Beer004
+    100014: Bottle of Beer005
+    100016: Box001
+    100018: Ceiling
+    100020: Cushion00
+    100022: Cushion02
+    100024: Cushion03
+    100026: Cushion04
+    100028: Cushion05
+    100030: Cushion07
+    100032: Cushion08
+    100034: Dance Floor
+    100036: Disco Ball
+    100038: Disco Holder
+    100040: DJ
+    100042: DJ Decor
+    100044: DJ Screen
+    100046: Floor and bar table
+    100048: Glass001
+    100050: Glass002
+    100052: Glass003
+    100054: Glass004
+    100056: Glass005
+    100058: Glass006
+    100060: Glass007
+    100062: Glass008
+    100064: I
+    100066: Main Door
+    100068: Main Door001
+    100070: Man
+    100072: Man001
+    100074: Man002
+    100076: Men Bathroom Door
+    100078: P
+    100080: Pantsu
+    100082: Phone
+    100084: Smoke
+    100086: Smoke001
+    100088: Smoke002
+    100090: Smoke003
+    100092: Smoke004
+    100094: Smoke005
+    100096: Smoke006
+    100098: Smoke007
+    100100: Smoke008
+    100102: Smoke009
+    100104: Sofa00
+    100106: Sofa01
+    100108: Spot001
+    100110: Spot001.Target
+    100112: Spot002
+    100114: Spot002.Target
+    100116: Spot003
+    100118: Spot003.Target
+    100120: Spot004
+    100122: Spot004.Target
+    100124: Spot005
+    100126: Spot005.Target
+    100128: Spot006
+    100130: Spot006.Target
+    100132: Spot007
+    100134: Spot007.Target
+    100136: Spot008
+    100138: Spot008.Target
+    100140: Spot009
+    100142: Spot009.Target
+    100144: //RootNode
+    100146: Stool Cushion
+    100148: Stool Cushion001
+    100150: Stool Cushion002
+    100152: Stool Cushion003
+    100154: Stool001
+    100156: Stool002
+    100158: Stool003
+    100160: Stool004
+    100162: Table
+    100164: Tissue Box
+    100166: V
+    100168: VIP door
+    100170: Vip Door
+    100172: VIP door 2
+    100174: Walls
+    100176: Women Bathroom Door
+    400000: Ash Tray
+    400002: Bar Door
+    400004: Bar table top
+    400006: Bottle of Beer001
+    400008: Bottle of Beer002
+    400010: Bottle of Beer003
+    400012: Bottle of Beer004
+    400014: Bottle of Beer005
+    400016: Box001
+    400018: Ceiling
+    400020: Cushion00
+    400022: Cushion02
+    400024: Cushion03
+    400026: Cushion04
+    400028: Cushion05
+    400030: Cushion07
+    400032: Cushion08
+    400034: Dance Floor
+    400036: Disco Ball
+    400038: Disco Holder
+    400040: DJ
+    400042: DJ Decor
+    400044: DJ Screen
+    400046: Floor and bar table
+    400048: Glass001
+    400050: Glass002
+    400052: Glass003
+    400054: Glass004
+    400056: Glass005
+    400058: Glass006
+    400060: Glass007
+    400062: Glass008
+    400064: I
+    400066: Main Door
+    400068: Main Door001
+    400070: Man
+    400072: Man001
+    400074: Man002
+    400076: Men Bathroom Door
+    400078: P
+    400080: Pantsu
+    400082: Phone
+    400084: Smoke
+    400086: Smoke001
+    400088: Smoke002
+    400090: Smoke003
+    400092: Smoke004
+    400094: Smoke005
+    400096: Smoke006
+    400098: Smoke007
+    400100: Smoke008
+    400102: Smoke009
+    400104: Sofa00
+    400106: Sofa01
+    400108: Spot001
+    400110: Spot001.Target
+    400112: Spot002
+    400114: Spot002.Target
+    400116: Spot003
+    400118: Spot003.Target
+    400120: Spot004
+    400122: Spot004.Target
+    400124: Spot005
+    400126: Spot005.Target
+    400128: Spot006
+    400130: Spot006.Target
+    400132: Spot007
+    400134: Spot007.Target
+    400136: Spot008
+    400138: Spot008.Target
+    400140: Spot009
+    400142: Spot009.Target
+    400144: //RootNode
+    400146: Stool Cushion
+    400148: Stool Cushion001
+    400150: Stool Cushion002
+    400152: Stool Cushion003
+    400154: Stool001
+    400156: Stool002
+    400158: Stool003
+    400160: Stool004
+    400162: Table
+    400164: Tissue Box
+    400166: V
+    400168: VIP door
+    400170: Vip Door
+    400172: VIP door 2
+    400174: Walls
+    400176: Women Bathroom Door
+    2100000: 09 - Default
+    2100002: 07 - Default
+    2100004: 12 - Default
+    2100006: No Name
+    2100008: 08 - Default
+    2100010: 21 - Default
+    2100012: 'Material #22'
+    2100014: 'Material #12'
+    2100016: 'Material #11'
+    2100018: 'Material #15'
+    2100020: 'Material #14'
+    2100022: 'Material #16'
+    2100024: 'Material #13'
+    2100026: 05 - Default
+    2100028: 03 - Default
+    2100030: 19 - Default
+    2100032: 15 - Default
+    2100034: 20 - Default
+    2100036: 14 - Default
+    2100038: 02 - Default
+    2100040: 01 - Default
+    2100042: 13 - Default
+    2100044: 04 - Default
+    2100046: 10 - Default
+    2100048: 16 - Default
+    2100050: 06 - Default
+    2300000: Ash Tray
+    2300002: Bar Door
+    2300004: Bar table top
+    2300006: Bottle of Beer001
+    2300008: Bottle of Beer002
+    2300010: Bottle of Beer003
+    2300012: Bottle of Beer004
+    2300014: Bottle of Beer005
+    2300016: Box001
+    2300018: Ceiling
+    2300020: Cushion00
+    2300022: Cushion02
+    2300024: Cushion03
+    2300026: Cushion04
+    2300028: Cushion05
+    2300030: Cushion07
+    2300032: Cushion08
+    2300034: Dance Floor
+    2300036: Disco Ball
+    2300038: Disco Holder
+    2300040: DJ
+    2300042: DJ Decor
+    2300044: DJ Screen
+    2300046: Floor and bar table
+    2300048: Glass001
+    2300050: Glass002
+    2300052: Glass003
+    2300054: Glass004
+    2300056: Glass005
+    2300058: Glass006
+    2300060: Glass007
+    2300062: Glass008
+    2300064: I
+    2300066: Main Door
+    2300068: Main Door001
+    2300070: Man
+    2300072: Man001
+    2300074: Man002
+    2300076: Men Bathroom Door
+    2300078: P
+    2300080: Pantsu
+    2300082: Phone
+    2300084: Smoke
+    2300086: Smoke001
+    2300088: Smoke002
+    2300090: Smoke003
+    2300092: Smoke004
+    2300094: Smoke005
+    2300096: Smoke006
+    2300098: Smoke007
+    2300100: Smoke008
+    2300102: Smoke009
+    2300104: Sofa00
+    2300106: Sofa01
+    2300108: Stool Cushion
+    2300110: Stool Cushion001
+    2300112: Stool Cushion002
+    2300114: Stool Cushion003
+    2300116: Stool001
+    2300118: Stool002
+    2300120: Stool003
+    2300122: Stool004
+    2300124: Table
+    2300126: Tissue Box
+    2300128: V
+    2300130: VIP door
+    2300132: Vip Door
+    2300134: VIP door 2
+    2300136: Walls
+    2300138: Women Bathroom Door
+    3300000: Ash Tray
+    3300002: Bar Door
+    3300004: Bar table top
+    3300006: Bottle of Beer001
+    3300008: Bottle of Beer002
+    3300010: Bottle of Beer003
+    3300012: Bottle of Beer004
+    3300014: Bottle of Beer005
+    3300016: Box001
+    3300018: Ceiling
+    3300020: Cushion00
+    3300022: Cushion02
+    3300024: Cushion03
+    3300026: Cushion04
+    3300028: Cushion05
+    3300030: Cushion07
+    3300032: Cushion08
+    3300034: Dance Floor
+    3300036: Disco Ball
+    3300038: Disco Holder
+    3300040: DJ
+    3300042: DJ Decor
+    3300044: DJ Screen
+    3300046: Floor and bar table
+    3300048: Glass001
+    3300050: Glass002
+    3300052: Glass003
+    3300054: Glass004
+    3300056: Glass005
+    3300058: Glass006
+    3300060: Glass007
+    3300062: Glass008
+    3300064: I
+    3300066: Main Door
+    3300068: Main Door001
+    3300070: Man
+    3300072: Man001
+    3300074: Man002
+    3300076: Men Bathroom Door
+    3300078: P
+    3300080: Pantsu
+    3300082: Phone
+    3300084: Smoke
+    3300086: Smoke001
+    3300088: Smoke002
+    3300090: Smoke003
+    3300092: Smoke004
+    3300094: Smoke005
+    3300096: Smoke006
+    3300098: Smoke007
+    3300100: Smoke008
+    3300102: Smoke009
+    3300104: Sofa00
+    3300106: Sofa01
+    3300108: Stool Cushion
+    3300110: Stool Cushion001
+    3300112: Stool Cushion002
+    3300114: Stool Cushion003
+    3300116: Stool001
+    3300118: Stool002
+    3300120: Stool003
+    3300122: Stool004
+    3300124: Table
+    3300126: Tissue Box
+    3300128: V
+    3300130: VIP door
+    3300132: Vip Door
+    3300134: VIP door 2
+    3300136: Walls
+    3300138: Women Bathroom Door
+    4300000: Floor and bar table
+    4300002: Walls
+    4300004: Ceiling
+    4300006: Bar table top
+    4300008: Dance Floor
+    4300010: Men Bathroom Door
+    4300012: Women Bathroom Door
+    4300014: Stool001
+    4300016: Bottle of Beer001
+    4300018: Bottle of Beer002
+    4300020: Bottle of Beer003
+    4300022: Bottle of Beer004
+    4300024: Bottle of Beer005
+    4300026: Glass001
+    4300028: Glass002
+    4300030: Glass003
+    4300032: Glass004
+    4300034: Glass005
+    4300036: Glass006
+    4300038: Glass007
+    4300040: Glass008
+    4300042: Bar Door
+    4300044: Cushion00
+    4300046: Ash Tray
+    4300048: Smoke
+    4300050: Smoke001
+    4300052: Smoke002
+    4300054: Smoke003
+    4300056: Smoke004
+    4300058: Smoke005
+    4300060: Smoke006
+    4300062: Smoke007
+    4300064: Smoke008
+    4300066: Smoke009
+    4300068: DJ
+    4300070: Disco Ball
+    4300072: Disco Holder
+    4300074: Sofa01
+    4300076: Cushion02
+    4300078: Cushion03
+    4300080: Cushion04
+    4300082: Cushion05
+    4300084: Sofa00
+    4300086: Cushion07
+    4300088: Cushion08
+    4300090: Table
+    4300092: DJ Screen
+    4300094: Vip Door
+    4300096: Tissue Box
+    4300098: V
+    4300100: I
+    4300102: P
+    4300104: Stool Cushion
+    4300106: DJ Decor
+    4300108: Stool Cushion001
+    4300110: Stool002
+    4300112: Stool Cushion002
+    4300114: Stool003
+    4300116: Stool Cushion003
+    4300118: Stool004
+    4300120: Phone
+    4300122: VIP door 2
+    4300124: VIP door
+    4300126: Pantsu
+    4300128: Man
+    4300130: Man001
+    4300132: Main Door
+    4300134: Main Door001
+    4300136: Man002
+    4300138: Box001
+    6400000: Ash Tray
+    6400002: Bar Door
+    6400004: Bar table top
+    6400006: Bottle of Beer001
+    6400008: Bottle of Beer002
+    6400010: Bottle of Beer003
+    6400012: Bottle of Beer004
+    6400014: Bottle of Beer005
+    6400016: Box001
+    6400018: Ceiling
+    6400020: Cushion00
+    6400022: Cushion02
+    6400024: Cushion03
+    6400026: Cushion04
+    6400028: Cushion05
+    6400030: Cushion07
+    6400032: Cushion08
+    6400034: Dance Floor
+    6400036: Disco Ball
+    6400038: Disco Holder
+    6400040: DJ
+    6400042: DJ Decor
+    6400044: DJ Screen
+    6400046: Floor and bar table
+    6400048: Glass001
+    6400050: Glass002
+    6400052: Glass003
+    6400054: Glass004
+    6400056: Glass005
+    6400058: Glass006
+    6400060: Glass007
+    6400062: Glass008
+    6400064: I
+    6400066: Main Door
+    6400068: Main Door001
+    6400070: Man
+    6400072: Man001
+    6400074: Man002
+    6400076: Men Bathroom Door
+    6400078: P
+    6400080: Pantsu
+    6400082: Phone
+    6400084: Smoke
+    6400086: Smoke001
+    6400088: Smoke002
+    6400090: Smoke003
+    6400092: Smoke004
+    6400094: Smoke005
+    6400096: Smoke006
+    6400098: Smoke007
+    6400100: Smoke008
+    6400102: Smoke009
+    6400104: Sofa00
+    6400106: Sofa01
+    6400108: Stool Cushion
+    6400110: Stool Cushion001
+    6400112: Stool Cushion002
+    6400114: Stool Cushion003
+    6400116: Stool001
+    6400118: Stool002
+    6400120: Stool003
+    6400122: Stool004
+    6400124: Table
+    6400126: Tissue Box
+    6400128: V
+    6400130: VIP door
+    6400132: Vip Door
+    6400134: VIP door 2
+    6400136: Walls
+    6400138: Women Bathroom Door
+    9500000: //RootNode
+    10800000: Spot001
+    10800002: Spot002
+    10800004: Spot003
+    10800006: Spot004
+    10800008: Spot005
+    10800010: Spot006
+    10800012: Spot007
+    10800014: Spot008
+    10800016: Spot009
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: a20e1fcd2c506554db215d5762219f7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 9697b5837b434904a826900d8d7525ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 9c6fea837213adb41875664b4c4fc6bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: 0eacb625554b4eb478cc66aea35a7411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 3fd5269d4882ef84990033a16c784f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: 4a6aac6bd9c5ba5489afc2d0415a7fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: eb88d7b8aa5d418438fe1fd1b5fb01c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 11b9d875d05cf9f4696d8677bbe1c773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: ee006f1278d5f7349a075d4c7e4e4698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: ad1500dbd1b852e4fae7730d7459a595, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12 - Default
+    second: {fileID: 2100000, guid: b4e8664fd36f92940a6ca5663e6a8536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: bf158427fd8fed045895aeaecc751fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: a332e3d6c5193ee4daae77c4011acde3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: 987f598942190fb42bc2df08cb3f8ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16 - Default
+    second: {fileID: 2100000, guid: ef9c66cc1007df0478463cc6921174cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: 9f90895cd023a5b46bf5368b228cd2d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20 - Default
+    second: {fileID: 2100000, guid: 94b5979a99e3fa640867d0b30d21c8bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: 3b959437bf9e8504cb79053453e91c45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #11'
+    second: {fileID: 2100000, guid: 97ad0d60fa2ca7443aa17ab95072fdcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #12'
+    second: {fileID: 2100000, guid: de7ff1e3e2786a94aad8a20d97a47502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #13'
+    second: {fileID: 2100000, guid: f5eb9877b6d9cbd48b7354c3fd0fcec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #14'
+    second: {fileID: 2100000, guid: 2ff4bc532d430ef4d8bd0dbbfe3fa3aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #15'
+    second: {fileID: 2100000, guid: 21a285bb66d2cfe47a4e3015eccbffea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #16'
+    second: {fileID: 2100000, guid: 39e516f8c06a6164bacfef829eca176d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #22'
+    second: {fileID: 2100000, guid: b715b66c45a04ee418cf63cb5f61a1bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 2f5e347796ab39546b52198343948608, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.2
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.030480001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

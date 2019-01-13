@@ -54,6 +54,7 @@ public class Combine : MonoBehaviour {
         InventoryPanel.SetActive(!InventoryPanel.activeSelf);
         CombinePanel.SetActive(!CombinePanel.activeSelf);
         isCombine = !isCombine;
+        AudioManager.instance.Play("ClickButton");
     }
 
     public void AddItem(InteractableObject item)
@@ -79,6 +80,7 @@ public class Combine : MonoBehaviour {
                (recipe.input1 == item02.item && recipe.input2 == item01.item))
                 result.AddItem(recipe.result);
         }
+        AudioManager.instance.Play("ClickButton");
     }
 
     public void ClearCombine()
@@ -87,5 +89,6 @@ public class Combine : MonoBehaviour {
         Inventory.instance.Remove(item02.item);
         item01.ClearSlot();
         item02.ClearSlot();
+        AudioManager.instance.Play("ClickButton");
     }
 }

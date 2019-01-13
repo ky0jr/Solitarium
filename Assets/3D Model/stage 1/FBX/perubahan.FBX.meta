@@ -48,6 +48,14 @@ ModelImporter:
     4300010: usus
     4300012: roda 1
     4300014: perban
+    6400000: biology worksheet001
+    6400002: kursi
+    6400004: perban
+    6400006: roda 1
+    6400008: roda 2
+    6400010: roda 3
+    6400012: roda 4
+    6400014: usus
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -96,7 +104,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 5
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

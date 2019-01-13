@@ -40,10 +40,14 @@ public class GameManager : MonoBehaviour {
 
     void Update()
     {
-        scene = SceneManager.GetActiveScene();
-        sceneName = scene.name;
-        Debug.Log(sceneName);
+        
+        //Debug.Log(sceneName);
     }
 
-
+    public string GetScene()
+    {
+        scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+        return sceneName;
+    }
 }

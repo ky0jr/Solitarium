@@ -47,11 +47,13 @@ public class InventoryUI : MonoBehaviour {
     {
         invenObject.SetActive(false);
         Inventory.instance.isInven = false;
+        AudioManager.instance.Play("InventorySwipe");
     }
 
     public void Open()
     {
         invenObject.SetActive(true);
         Inventory.instance.isInven = true;
+        AudioManager.instance.Play("InventorySwipe");
     }
 }

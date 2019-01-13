@@ -1,12 +1,17 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
 
     public Sound[] sounds;
 
     public static AudioManager instance;
+
+    Scene scene;
+
+    string sceneName;
 
     void Awake()
     {
@@ -33,7 +38,19 @@ public class AudioManager : MonoBehaviour {
 
     private void Start()
     {
-        Play("");
+
+        scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+
+        if(sceneName.Equals("Stage 1"))
+        {
+            Play("Theme_1");
+        }
+        else if (scene.Equals("Stage 2"))
+        {
+            Play("Theme_2");
+        }
+        Debug.Log(sceneName);
     }
     public void Play(string name)
     {

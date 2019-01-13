@@ -40,6 +40,7 @@ public class InventorySlot : MonoBehaviour {
         }
         else
             Combine.instance.AddItem(item);
+        AudioManager.instance.Play("ClickButton");
     }
 
 }

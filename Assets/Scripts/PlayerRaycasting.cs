@@ -28,6 +28,7 @@ public class PlayerRaycasting : MonoBehaviour {
     private RaycastHit hitInfo;
     private ObjectInteraction _object;
 
+
     void Start()
     {
         
@@ -85,7 +86,6 @@ public class PlayerRaycasting : MonoBehaviour {
     {
         GameManager.instance.interact = true;
 
-
         description.text = _object.description;
         panel.SetActive(true);
         if (_object.isClue && !this._object.alreadyPickup)
@@ -96,10 +96,12 @@ public class PlayerRaycasting : MonoBehaviour {
             {
                 Destroy(hitInfo.collider.gameObject);
             }
-
-            //tambahan tanggal 6 novemeber 2018 untuk dapatkan return object
-            Debug.Log(Inventory.instance.items.Find(FindItem));
+            
         }
+
+        //tambahan tanggal 6 novemeber 2018 untuk dapatkan return object
+        //Debug.Log(Inventory.instance.items.Find(FindItem));
+
     }
 
     public void InteractButton()
@@ -108,20 +110,28 @@ public class PlayerRaycasting : MonoBehaviour {
         {
             Interact(_object._object, hitInfo);
             touchPanel.gameObject.SetActive(false);
-        }            
+
+            string _objName = _object._object._name;
+            if (_objName == "The Door" || _objName == "Door")
+            {
+                AudioManager.instance.Play("Open_Door");
+            }
+
+            Debug.Log(_object._object.name);
+        }
         else
         {
             GameManager.instance.interact = false;
             panel.SetActive(false);
             touchPanel.gameObject.SetActive(true);
         }
-            
+        AudioManager.instance.Play("Interact");
     }
 
 
     //method di List<InteractableObject> untuk jadi System.Predicate
     public bool FindItem(InteractableObject find)
     {       
-        return (find == _object);
+        return (find == _object._object);
     }
 }

@@ -71,4 +71,13 @@ public class PlayerMotor : MonoBehaviour {
         }
 
     }
+
+    public bool IsWalking(Vector3 speed)
+    {
+        if (speed != Vector3.zero)
+        {
+            return true;
+        }
+        else return false;
+    }
 }
