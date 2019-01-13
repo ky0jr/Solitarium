@@ -5,8 +5,11 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour {
 
-    public static Dialogue instance = null;
+    #region Singleton
 
+    public static Dialogue instance = null; //Static instance of GameManager which allows it to be accessed by any other script.
+
+    //Awake is always called before any Start functions
     void Awake()
     {
         //Check if instance already exists
@@ -26,50 +29,61 @@ public class Dialogue : MonoBehaviour {
 
     }
 
-    [SerializeField]
-    private GameObject dialoguePanel;
-    [SerializeField]
-    private Text dialogueText;
-    [SerializeField]
-    private Text _name;
+    #endregion
 
-    private GameManager gameManager;
+	[SerializeField]
+	private Queue<DialogueObject> dialogues = null;
 
-    [SerializeField]
-    private DialogueScene[] dialogueScene;
+	[SerializeField]
+	private Text speaker;
 
-    private DialogueObject[] dialogueObj;
+	[SerializeField]
+	private Text dial;
 
-    // Use this for initialization
-    void Start () {
-        gameManager = GameManager.instance;
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		if(gameManager.sceneName == "Stage 1")
-        {
-            dialogueObj = dialogueScene[0].dialogues;
-        }
-        else if(gameManager.sceneName == "Stage 2")
-        {
-            dialogueObj = dialogueScene[1].dialogues;
-        }
-        else if (gameManager.sceneName == "Stage 3")
-        {
-            dialogueObj = dialogueScene[2].dialogues;
-        }
-        else if (gameManager.sceneName == "Stage 4")
-        {
-            dialogueObj = dialogueScene[3].dialogues;
-        }
-        else if (gameManager.sceneName == "Prologue")
-        {
-            dialogueObj = dialogueScene[4].dialogues;
-        }
-        else if (gameManager.sceneName == "Epilogue")
-        {
-            dialogueObj = dialogueScene[5].dialogues;
-        }
-    }
+	[SerializeField]
+	private GameObject panel;
+
+	public bool isDialogue = false;
+
+	void Start(){
+        dialogues = new Queue<DialogueObject>();
+		panel.SetActive (false);
+	}
+
+	void Update(){
+		if (isDialogue) {
+            if (Input.GetMouseButtonDown(0))
+            {
+                StartDialogue ();
+            }	
+		}
+	}
+
+	public void GetDialogues(DialogueObject[] dialogue){
+        //Debug.Log("getting dialogue");
+		dialogues.Clear ();
+		foreach (DialogueObject d in dialogue) {
+			dialogues.Enqueue (d);
+		}
+		panel.SetActive (true);
+		isDialogue = true;
+		StartDialogue ();
+	}
+
+	public void StartDialogue(){
+
+		if (dialogues.Count == 0) {
+			panel.SetActive (false);
+			isDialogue = false;
+			return;
+		}
+		DialogueObject temp = dialogues.Dequeue ();
+		string _name = temp._name;
+		string text = temp.dialogue;
+        Debug.Log("Name: " + _name);
+		speaker.text = _name;
+		dial.text = text;
+	}
+
+
 }

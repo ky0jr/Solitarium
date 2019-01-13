@@ -21,7 +21,7 @@ public class InventoryUI : MonoBehaviour {
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
 
         gameObject.SetActive(false);
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -47,13 +47,11 @@ public class InventoryUI : MonoBehaviour {
     {
         invenObject.SetActive(false);
         Inventory.instance.isInven = false;
-        AudioManager.instance.Play("InventorySwipe");
     }
 
     public void Open()
     {
         invenObject.SetActive(true);
         Inventory.instance.isInven = true;
-        AudioManager.instance.Play("InventorySwipe");
     }
 }

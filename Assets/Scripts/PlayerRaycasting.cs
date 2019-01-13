@@ -88,9 +88,9 @@ public class PlayerRaycasting : MonoBehaviour {
 
         description.text = _object.description;
         panel.SetActive(true);
-        if (_object.isClue && !this._object.alreadyPickup)
+        if (_object.isClue && !this._object.alreadyPickUp)
         {
-            this._object.alreadyPickup = true;
+            this._object.alreadyPickUp = true;
             Inventory.instance.Add(_object);
             if (_object.isPickupable)
             {
@@ -110,6 +110,13 @@ public class PlayerRaycasting : MonoBehaviour {
         {
             Interact(_object._object, hitInfo);
             touchPanel.gameObject.SetActive(false);
+
+            if(_object.dialogues != null)
+            {
+                Dialogue.instance.GetDialogues(_object.dialogues);
+                //Debug.Log (_object.dialogues);
+            }
+            //_object.alreadyPickUp = true;
 
             string _objName = _object._object._name;
             if (_objName == "The Door" || _objName == "Door")

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectInteraction : MonoBehaviour {
 
 	public InteractableObject _object;
-    public bool alreadyPickup = false;
+    public bool alreadyPickUp = false;
+	public DialogueObject[] dialogues = null;
 
 }

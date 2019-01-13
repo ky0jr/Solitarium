@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour {
 
     public bool interact = false;
 
-    public string sceneName = "";
+    [SerializeField]
+    private InteractableObject[] submit;
 
     private Scene scene;
 
@@ -33,21 +34,23 @@ public class GameManager : MonoBehaviour {
 
     }
 
-    void Start()
+    public void CheckSubmit()
     {
-        
-    }
-
-    void Update()
-    {
-        
-        //Debug.Log(sceneName);
+        foreach(InteractableObject @object in submit)
+        {
+            if (!Inventory.instance.items.Contains(@object))
+            {
+                Debug.Log("Not Complete");
+                return;
+            }
+        }
+        Debug.Log("Complete");
     }
 
     public string GetScene()
     {
         scene = SceneManager.GetActiveScene();
-        sceneName = scene.name;
+        string sceneName = scene.name;
         return sceneName;
     }
 }
