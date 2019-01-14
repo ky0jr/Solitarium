@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: DiscoBall
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "Though it\u2019s kind of odd to look at when time isn\u2019t moving."

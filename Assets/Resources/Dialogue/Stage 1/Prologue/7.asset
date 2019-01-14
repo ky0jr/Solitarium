@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "\u2026It\u2019s not just him. It\u2019s like this entire room is frozen.
     What\u2019s going on here\u2026?\r\n"

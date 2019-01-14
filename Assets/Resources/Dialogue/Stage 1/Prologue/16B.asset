@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 16B
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "This room\u2026time is standing still within it.\r In that case, I\u2019ll
     have a look around the place.\r There has to be something that can jog my memory.\r\n\u2026\r\nBut
     why do I feel like\u2026like that would be a bad idea?\r\n"

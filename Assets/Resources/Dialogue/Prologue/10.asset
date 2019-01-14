@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "(Seems like he\u2019s going through tough times)\r.\nIf there\u2019s
     any way I can help-\r\n"

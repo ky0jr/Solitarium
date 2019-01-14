@@ -41,7 +41,7 @@ public class SubmitGame : MonoBehaviour {
 
     }
 
-    IEnumerator WaitForInput()
+    public IEnumerator WaitForInput()
     {
         while (!Input.GetMouseButtonDown(0)||Dialogue.instance.isDialogue)//!Input.GetKeyDown(KeyCode.Space))
             yield return null; 

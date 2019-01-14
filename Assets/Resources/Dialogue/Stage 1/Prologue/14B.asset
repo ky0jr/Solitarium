@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 14B
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "\u2026!\r\nCould it be that this thing is why my memory is hazy?\r Or
     maybe\u2026it\u2019s just there because I can\u2019t remember what\u2019s over
     there.\r\n"

@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: Bed
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "It\u2019s very clean save for those red spots, and there\u2019s an animal\u2019s
     tail peeking out from under it\u2026Huh?"

@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: 
-  _name: Me
-  dialogue: "My parents\u2026\r\n\u2026They told me to do a good job.\r \nAnd then\u2026and
+  _name: Parallel Me
+  dialogue: "My parents\u2026\r\nThey told me to do a good job.\r \nAnd then\u2026and
     then\u2026\r\n"

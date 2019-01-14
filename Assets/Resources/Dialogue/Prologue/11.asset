@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: 11
   m_EditorClassIdentifier: 
-  _name: Parallel Me
+  _name: Me
   dialogue: Forget it. Now leave.

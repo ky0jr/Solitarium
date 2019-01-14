@@ -106,3 +106,9 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Dialogue_Click
+    clip: {fileID: 8300000, guid: 4953605f6c25b1141898e2264d558228, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

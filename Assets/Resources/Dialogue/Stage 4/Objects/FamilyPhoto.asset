@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: FamilyPhoto
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "Oh, that\u2019s my boss"

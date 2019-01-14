@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20f26e58fce12a4cbdc71e68ce02a70, type: 3}
   m_Name: FemaleBathroom
   m_EditorClassIdentifier: 
-  _name: Me
+  _name: Parallel Me
   dialogue: "I can\u2019t open it, but it\u2019s not like I know anything that\u2019s
     in there"

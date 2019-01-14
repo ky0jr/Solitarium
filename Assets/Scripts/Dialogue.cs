@@ -55,6 +55,7 @@ public class Dialogue : MonoBehaviour {
             if (Input.GetMouseButtonDown(0))
             {
                 StartDialogue ();
+                AudioManager.instance.Play("Dialogue_Click");
             }	
 		}
 	}
@@ -77,12 +78,23 @@ public class Dialogue : MonoBehaviour {
 			isDialogue = false;
 			return;
 		}
+
 		DialogueObject temp = dialogues.Dequeue ();
 		string _name = temp._name;
 		string text = temp.dialogue;
-        Debug.Log("Name: " + _name);
+        //Debug.Log("Name: " + _name);
 		speaker.text = _name;
-        dial.text = text;
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(text));
 	}
 
+    IEnumerator TypeSentence (string sentence)
+    {
+        dial.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dial.text += letter;
+            yield return null;
+        }
+    }
 }
