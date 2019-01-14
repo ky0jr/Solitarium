@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour {
             return;
         }
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
         foreach (Sound s in sounds)
         {
@@ -46,7 +46,15 @@ public class AudioManager : MonoBehaviour {
         {
             Play("Theme_1");
         }
-        else if (scene.Equals("Stage 2"))
+        else if (sceneName.Equals("Stage 2"))
+        {
+            Play("Theme_3");
+        }
+        else if (sceneName.Equals("Stage 3"))
+        {
+            Play("Theme_4");
+        }
+        else if (sceneName.Equals("Stage 4"))
         {
             Play("Theme_2");
         }

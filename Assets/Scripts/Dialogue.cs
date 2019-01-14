@@ -31,8 +31,8 @@ public class Dialogue : MonoBehaviour {
 
     #endregion
 
-	[SerializeField]
-	private Queue<DialogueObject> dialogues = null;
+    [SerializeField]
+    private Queue<DialogueObject> dialogues;
 
 	[SerializeField]
 	private Text speaker;
@@ -82,8 +82,7 @@ public class Dialogue : MonoBehaviour {
 		string text = temp.dialogue;
         Debug.Log("Name: " + _name);
 		speaker.text = _name;
-		dial.text = text;
+        dial.text = text;
 	}
-
 
 }

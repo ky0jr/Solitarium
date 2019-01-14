@@ -15,4 +15,4 @@ MonoBehaviour:
   description: "She\u2019s peeking from behind a corner."
   icon: {fileID: 0}
   isPickupable: 0
-  isClue: 0
+  isClue: 1

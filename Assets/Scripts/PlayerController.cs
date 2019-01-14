@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour {
 
         PlayFootStepAudio();
 
-        Debug.Log(m_StepCycle + " & " + m_NextStep );
+       // Debug.Log(m_StepCycle + " & " + m_NextStep );
         //AudioManager.instance.Play("Footsteps_Normal");
     }
 

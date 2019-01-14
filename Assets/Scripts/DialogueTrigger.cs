@@ -5,17 +5,22 @@ using UnityEngine;
 [System.Serializable]
 public class DialogueTrigger : MonoBehaviour {
 
-    public DialogueObject[] dialogue;
-    
+    [SerializeField]
+    private ObjectInteraction _object;
+
 	// Use this for initialization
 	void Start () {
-        Dialogue.instance.isDialogue = true;
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (_object.dialogues != null)
+        {
+            Dialogue.instance.GetDialogues(_object.dialogues);
+            //Debug.Log (_object.dialogues);
+        }
+    }
 
     public void TriggerDialogue()
     {

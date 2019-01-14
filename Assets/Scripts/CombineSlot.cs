@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CombineSlot : InventorySlot {
+
     public void CreateItem()
     {
         if (item != null)

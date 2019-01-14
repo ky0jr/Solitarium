@@ -122,6 +122,9 @@ public class PlayerRaycasting : MonoBehaviour {
             if (_objName == "The Door" || _objName == "Door")
             {
                 AudioManager.instance.Play("Open_Door");
+            } else if (_objName == "VIP Room Door")
+            {
+                AudioManager.instance.Play("Locked_Door");
             }
 
             Debug.Log(_object._object.name);

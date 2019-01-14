@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour {
 
@@ -11,6 +12,11 @@ public class GameManager : MonoBehaviour {
 
     [SerializeField]
     private InteractableObject[] submit;
+
+    [SerializeField]
+    private DialogueObject[] prologue;
+    [SerializeField]
+    private DialogueObject[] epilogue;
 
     private Scene scene;
 
@@ -30,21 +36,31 @@ public class GameManager : MonoBehaviour {
             Destroy(gameObject);
 
         //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
     }
 
-    public void CheckSubmit()
+    private void Start()
     {
+        Dialogue.instance.GetDialogues(prologue);
+    }
+
+    public bool CheckSubmit()
+    {
+        bool tf = true;
         foreach(InteractableObject @object in submit)
         {
             if (!Inventory.instance.items.Contains(@object))
             {
                 Debug.Log("Not Complete");
-                return;
+                tf = false;
+                return tf;
+                
             }
         }
         Debug.Log("Complete");
+        Dialogue.instance.GetDialogues(epilogue);
+        return tf;
     }
 
     public string GetScene()
@@ -53,4 +69,5 @@ public class GameManager : MonoBehaviour {
         string sceneName = scene.name;
         return sceneName;
     }
+
 }
