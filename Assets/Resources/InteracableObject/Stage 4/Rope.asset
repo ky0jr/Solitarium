@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Rope
   description: A piece of rope, tied into a knot.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: f2412a410c91f6441826e3ac808aa345, type: 3}
   isPickupable: 0
   isClue: 1

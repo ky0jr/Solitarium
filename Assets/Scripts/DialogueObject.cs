@@ -10,4 +10,6 @@ public class DialogueObject : ScriptableObject {
     [TextArea]
     public string dialogue = "";
 
+
+	
 }

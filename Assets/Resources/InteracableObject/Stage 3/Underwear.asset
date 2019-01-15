@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Underwear
   description: A used pair of underwear.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3b29512f21d0569448d4f8226c995174, type: 3}
   isPickupable: 0
   isClue: 1

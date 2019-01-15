@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Empty Glasses
   description: Empty shots.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2167088ba136343428b451dd3843e4d3, type: 3}
   isPickupable: 0
   isClue: 1

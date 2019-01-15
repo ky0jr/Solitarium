@@ -12,9 +12,13 @@ public class Scenes : MonoBehaviour {
 
     private void Start()
     {
-        Dialogue.instance.GetDialogues(dialogues);
-        StopAllCoroutines();
-        submit.StartCoroutine("WaitForInput");
+        if(Dialogue.instance != null)
+        {
+            Dialogue.instance.GetDialogues(dialogues);
+            StopAllCoroutines();
+            submit.StartCoroutine("WaitForInput");
+        }
+        
     }
 
     public void Load(string name)
@@ -22,4 +26,14 @@ public class Scenes : MonoBehaviour {
         SceneManager.LoadScene(name);
     }
 
+    public void QuitApp()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #elif UNITY_WEBPLAYER
+            Application.OpenURL(webplayerQuitURL);
+        #else
+            Application.Quit();
+        #endif
+    }
 }

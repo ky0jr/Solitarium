@@ -56,6 +56,13 @@ public class AudioManager : MonoBehaviour {
         }
         else if (sceneName.Equals("Stage 4"))
         {
+            Play("Theme_1");
+        } else if (sceneName.Equals("Main Menu"))
+        {
+            Play("Theme_2");
+        }
+        else if (sceneName.Equals("End"))
+        {
             Play("Theme_2");
         }
         Debug.Log(sceneName);

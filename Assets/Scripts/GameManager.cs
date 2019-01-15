@@ -70,4 +70,8 @@ public class GameManager : MonoBehaviour {
         return sceneName;
     }
 
+    public void LoadingScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
 }

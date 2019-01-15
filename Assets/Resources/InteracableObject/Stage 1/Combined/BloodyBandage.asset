@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Bloody Bandages
   description: A piece of bandage partially covered in blood.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 07d6eafc0212d664a8d425d84ed0b369, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

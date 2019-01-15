@@ -312,6 +312,7 @@
     <Compile Include="Assets\Scripts\CombineRecipe.cs" />
     <Compile Include="Assets\Scripts\CombineSlot.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\DialogueObject.cs" />
     <Compile Include="Assets\Scripts\DialogueScene.cs" />
     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
@@ -329,6 +330,7 @@
     <Compile Include="Assets\Scripts\Scenes.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\SubmitGame.cs" />
+    <Compile Include="Assets\Stage5.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Examples\2D Example\Player2DExample.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Examples\3D Example\Player3DExample.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Scripts\Base\Joystick.cs" />

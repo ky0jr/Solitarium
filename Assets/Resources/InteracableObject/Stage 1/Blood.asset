@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Blood Stain
   description: Bloodstains on the bedsheet. It looks fresh.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9d81bc8fa824caf47a6dc41b4c0cee25, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 1

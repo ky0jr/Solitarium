@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Broken Test Tube
   description: Part of it is broken and nowhere to be seen.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9af11612615d6fd41a389ee2bb7a726f, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

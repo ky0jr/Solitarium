@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Fax Papers
   description: "They\u2019re all bills and complaints."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 74209a607f22f654f8e199201afcd19e, type: 3}
   isPickupable: 1
   isClue: 1

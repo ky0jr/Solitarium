@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: My Friend's Bag
   description: "The one hanging from the window isn\u2019t mine."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6c4b05101f8d4794687c4314c6592461, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

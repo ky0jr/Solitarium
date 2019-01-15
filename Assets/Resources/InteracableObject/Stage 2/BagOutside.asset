@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Hanging Bag
   description: A backpack hanging outside the window.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: e4511d6020a8dd64d90f331f2a9adae4, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

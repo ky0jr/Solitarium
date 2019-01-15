@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Girl in Uniform
   description: "Her head\u2019s tilted down."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8940086e63639eb49835b9aefa041ad3, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

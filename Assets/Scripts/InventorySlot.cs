@@ -13,6 +13,8 @@ public class InventorySlot : MonoBehaviour {
 
     public Text text;
 
+    public Text objname;
+
     public void AddItem(InteractableObject newItem)
     {
         item = newItem;
@@ -37,6 +39,7 @@ public class InventorySlot : MonoBehaviour {
         {
             bigIcon.sprite = item.icon;
             text.text = item.description;
+            objname.text = item._name;
         }
         else
             Combine.instance.AddItem(item);

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Broken Lamp
   description: "There\u2019s blood on it, but not much at all."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9e850e5d43012f34b937a72f1bb4aeee, type: 3}
   isPickupable: 0
   isClue: 1

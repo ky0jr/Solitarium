@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Full Ashtray
   description: Several butts have even spilled. The smell is overwhelming.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3489659add0886448b95dd28989f52c0, type: 3}
   isPickupable: 0
   isClue: 1

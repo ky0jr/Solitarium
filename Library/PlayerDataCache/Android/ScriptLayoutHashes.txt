@@ -1,12 +1,14 @@
 Android
 PlayerPath?
-D:/New folder/solitariumsss.apk
+C:/Games/Solitarium.apk
 SceneListBegin?
+Assets/Scenes/Prologue.unity
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/Stage 1.unity
 Assets/Scenes/Stage 2.unity
 Assets/Scenes/Stage 3.unity
 Assets/Scenes/Stage 4.unity
+Assets/Scenes/End.unity
 SceneListEnd?
 ca79e2ead709e871e4e191416387865f Assembly-CSharp.dll:.Player3DExample
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -62,7 +64,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 8cddfc622304d1dccf4c517e01af4105 Assembly-CSharp.dll:.AudioManager
-471ec953f796a17233566678020663f8 Assembly-CSharp.dll:.InventorySlot
+342a6ccf1e57d456c0d59e672a0d23cb Assembly-CSharp.dll:.InventorySlot
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -185,13 +187,15 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-a12f365bd345870788dd583b4c987459 Assembly-CSharp.dll:.InventoryUI
+bbb49ae44a1802068e58173d293a9eda Assembly-CSharp.dll:.InventoryUI
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
-471ec953f796a17233566678020663f8 Assembly-CSharp.dll:.CombineSlot
+342a6ccf1e57d456c0d59e672a0d23cb Assembly-CSharp.dll:.CombineSlot
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
-602048b8e982452dff563eae50e39305 Assembly-CSharp.dll:.Combine
+17a5ecdeb774b714ab7b13c853e8529d Assembly-CSharp.dll:.Combine
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 813fb5c5f876c0ac3af5f34fc4ac76b1 Assembly-CSharp.dll:.FixedTouchField
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 1cda4dea7d51415d629229b5e4dffbb7 Assembly-CSharp.dll:.Dialogue
-365557c045b9ddd7a848d32def6af9d3 Assembly-CSharp.dll:.Scenes
+e3134b196f9f76ffd78df4e474651fd6 Assembly-CSharp.dll:.Scenes
+85cb9ca79c3835729ebd956d4d929f19 Assembly-CSharp.dll:.Stage5
+7bdd0c4fcaac9032b04018403b91479d Assembly-CSharp.dll:.DialogueManager

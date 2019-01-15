@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Laughing People
   description: A group of people laughing at something.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7b530cd8aed273c4ea6aa2e29934c627, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

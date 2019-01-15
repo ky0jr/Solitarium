@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Kicking Person
   description: A person with his leg raised.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2f989fb5b4ec21340b19a2f4a661737c, type: 3}
   isPickupable: 0
   isClue: 1
-  isCombineable: 0

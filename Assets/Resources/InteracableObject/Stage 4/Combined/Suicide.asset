@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Suicide
   description: Their presence implies something ominous.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a6510123fad8d1243b8242421c98c47f, type: 3}
   isPickupable: 0
   isClue: 1

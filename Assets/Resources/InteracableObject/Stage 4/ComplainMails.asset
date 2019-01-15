@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Complain Mails
   description: There are dozens of them.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7f747b304eb99484186108416ee88ec8, type: 3}
   isPickupable: 1
   isClue: 1

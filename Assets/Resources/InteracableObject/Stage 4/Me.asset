@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Me
   description: "He\u2019s knelt down. He has a face of distraught."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9a32375164f9f044eb09079ccff3c5e0, type: 3}
   isPickupable: 0
   isClue: 1

@@ -17,6 +17,8 @@ public class Combine : MonoBehaviour {
     private GameObject InventoryPanel;
     [SerializeField]
     private GameObject CombinePanel;
+    [SerializeField]
+    private GameObject image;
 
     public bool isCombine = false;
 
@@ -53,6 +55,7 @@ public class Combine : MonoBehaviour {
     {
         InventoryPanel.SetActive(!InventoryPanel.activeSelf);
         CombinePanel.SetActive(!CombinePanel.activeSelf);
+        image.SetActive(!image.activeSelf);
         isCombine = !isCombine;
         AudioManager.instance.Play("ClickButton");
     }

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour {
 
+    [SerializeField]
+    private GameObject pauseButton;
+
     public Transform itemsParent;
 
     Inventory inventory;
@@ -47,11 +50,13 @@ public class InventoryUI : MonoBehaviour {
     {
         invenObject.SetActive(false);
         Inventory.instance.isInven = false;
+        pauseButton.SetActive(true);
     }
 
     public void Open()
     {
         invenObject.SetActive(true);
         Inventory.instance.isInven = true;
+        pauseButton.SetActive(false);
     }
 }

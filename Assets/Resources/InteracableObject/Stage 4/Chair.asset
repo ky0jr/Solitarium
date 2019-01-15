@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Chair
   description: "It\u2019s knocked down and somewhat damaged."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 82d6aa31dbda709429b0da99279f9b86, type: 3}
   isPickupable: 0
   isClue: 1

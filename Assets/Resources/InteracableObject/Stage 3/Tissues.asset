@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Tissues
   description: "A lot of it has been used. They\u2019re soaked."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6b83b08082817ec44bb0dd9fa8465246, type: 3}
   isPickupable: 0
   isClue: 1

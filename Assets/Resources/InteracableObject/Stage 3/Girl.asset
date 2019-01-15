@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: A Girl
   description: "She\u2019s peeking from behind a corner."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7871c26b514554c4db5eb10f5aabd6ee, type: 3}
   isPickupable: 0
   isClue: 1
