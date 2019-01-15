@@ -25,7 +25,7 @@ public class Dialogue : MonoBehaviour {
             Destroy(gameObject);
 
         //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
     }
 
@@ -51,11 +51,14 @@ public class Dialogue : MonoBehaviour {
 	}
 
 	void Update(){
+        if (Pause.instance.pause)
+            return;
+
 		if (isDialogue) {
             if (Input.GetMouseButtonDown(0))
             {
-                StartDialogue ();
                 AudioManager.instance.Play("Dialogue_Click");
+                StartDialogue ();                
             }	
 		}
 	}

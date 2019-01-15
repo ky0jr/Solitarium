@@ -51,6 +51,7 @@ public class InventoryUI : MonoBehaviour {
         invenObject.SetActive(false);
         Inventory.instance.isInven = false;
         pauseButton.SetActive(true);
+        AudioManager.instance.Play("InventorySwipe");
     }
 
     public void Open()
@@ -58,5 +59,6 @@ public class InventoryUI : MonoBehaviour {
         invenObject.SetActive(true);
         Inventory.instance.isInven = true;
         pauseButton.SetActive(false);
+        AudioManager.instance.Play("ClickButton");
     }
 }

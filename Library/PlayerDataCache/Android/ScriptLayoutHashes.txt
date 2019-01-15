@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Games/Solitarium.apk
+E:/GitHUB/Solitarium-master/Build/Build01.apk
 SceneListBegin?
 Assets/Scenes/Prologue.unity
 Assets/Scenes/Main Menu.unity
@@ -138,6 +138,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+85cb9ca79c3835729ebd956d4d929f19 Assembly-CSharp.dll:.Stage5
 af40cfd1a84e6feaa6a62c90e2d5e80c Assembly-CSharp.dll:.DialogueObject
 64f84dceaa94e3cdcce183d6af515f56 Assembly-CSharp.dll:.GameManager
 7d776ec93d5320489b7aef629e932e2d Assembly-CSharp.dll:.FloatingJoystick
@@ -146,6 +147,7 @@ f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 d5b02460e25e9140641cfed6282efcf1 Assembly-CSharp.dll:.PlayerMotor
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CombineRecipe
+7bdd0c4fcaac9032b04018403b91479d Assembly-CSharp.dll:.DialogueManager
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 8be99d1f36d0298f647a54636e4e8d00 Assembly-CSharp.dll:.SubmitGame
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -197,5 +199,3 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 1cda4dea7d51415d629229b5e4dffbb7 Assembly-CSharp.dll:.Dialogue
 e3134b196f9f76ffd78df4e474651fd6 Assembly-CSharp.dll:.Scenes
-85cb9ca79c3835729ebd956d4d929f19 Assembly-CSharp.dll:.Stage5
-7bdd0c4fcaac9032b04018403b91479d Assembly-CSharp.dll:.DialogueManager

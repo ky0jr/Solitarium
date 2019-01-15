@@ -2632,7 +2632,7 @@ Prefab:
     - target: {fileID: 224768264615490132, guid: 147aa0f15df384b43b1d9226a6ac18ec,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -9.300003
+      value: -9.299988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147aa0f15df384b43b1d9226a6ac18ec, type: 2}
@@ -2720,7 +2720,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interact: 0
-  submit: []
+  submit:
+  - {fileID: 11400000, guid: 443603efeaf27d9438c3a02e38edf47a, type: 2}
+  - {fileID: 11400000, guid: 927420975fbd1934a811b82ad4c6d90d, type: 2}
+  - {fileID: 11400000, guid: 7e115f8fee6203b4198b6b91bfff74c8, type: 2}
+  - {fileID: 11400000, guid: 0ea2cf6820cd6f24c985aa315af781a2, type: 2}
+  - {fileID: 11400000, guid: 1d4cdf5ddcdd9024f883a0146d725dcb, type: 2}
   prologue:
   - {fileID: 11400000, guid: 2bd1ff7c2210f0446bb8e186ef721fc0, type: 2}
   - {fileID: 11400000, guid: 5444254309d7897469c9fe0cdf094f87, type: 2}

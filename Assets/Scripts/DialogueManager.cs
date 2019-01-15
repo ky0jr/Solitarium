@@ -98,15 +98,16 @@ public class DialogueManager : MonoBehaviour {
         continue4.SetActive(false);
         continue5.SetActive(false);
         endGame.SetActive(false);
-        DialogueGoTo1();
+        StartCoroutine(DialogueGoTo1());
     }
 
     // Update is called once per frame
     void Update() {
         
     }
-    public void DialogueGoTo1()
+    public IEnumerator DialogueGoTo1()
     {
+        yield return new WaitForSeconds(0.5f);
         Dialogue.instance.GetDialogues(part1);
         button1.SetActive(true);
         button2.SetActive(true);

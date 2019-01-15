@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
     private void Update()
     {
         LookAxis = touchField.TouchDist;
-        if (GameManager.instance.interact || Inventory.instance.isInven)
+        if (GameManager.instance.interact || Inventory.instance.isInven || Dialogue.instance.isDialogue)
         {
             motor.Move(Vector3.zero);
             return;
